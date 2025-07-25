@@ -6,9 +6,9 @@ const app = express();
 app.use(express.static(path.join(__dirname, "public")));
 app.use("/assets", express.static(path.join(__dirname, "assets")));
 
-// Toutes les routes renvoient vers index.php
+// Toutes les routes renvoient vers index.html
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.php"));
+  res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
 const PORT = process.env.PORT || 3000;
