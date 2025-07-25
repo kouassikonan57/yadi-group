@@ -1,7 +1,13 @@
 services:
   - type: web
-    name: yadi-group-php
+    name: yadi-group
+    env: node
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
     autoDeploy: true
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    staticAssets:
+      - path: /assets
+        destination: assets
