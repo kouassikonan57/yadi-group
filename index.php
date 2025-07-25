@@ -44,7 +44,7 @@
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center"
       >
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <a href="index.php" class="logo d-flex align-items-center me-auto">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <img src="assets/img/logo_yg.png" alt="" />
         </a>
@@ -68,7 +68,7 @@
       <section id="hero" class="hero">
         <!-- Video Background Only -->
         <video autoplay muted loop playsinline class="hero-video">
-          <source src="assets/videos/video_zone_hero.mp4" type="video/mp4">
+          <source src="assets/videos/video_zone_hero.mp4" type="video/mp4" />
           <!-- Fallback removed since you only want video -->
         </video>
         <div class="hero-overlay"></div>
@@ -77,17 +77,26 @@
         <div class="hero-slides">
           <!-- Slide 1 -->
           <div class="slide active">
-            <div class="slide-image" style="background-image: url('assets/img/slides_hero/groupe.jpg');"></div>
+            <div
+              class="slide-image"
+              style="background-image: url('assets/img/slides_hero/groupe.jpg')"
+            ></div>
             <div class="container slide-content">
               <h2>PLANIFIER. LANCER. DÉVELOPPER.</h2>
-              <p>Yadi Group, c'est l'ambition de construire, d'innover et de connecter.</p>
+              <p>
+                Yadi Group, c'est l'ambition de construire, d'innover et de
+                connecter.
+              </p>
               <a href="#" class="btn-get-started">En savoir plus</a>
             </div>
           </div>
 
           <!-- Slide 2 -->
           <div class="slide">
-            <div class="slide-image" style="background-image: url('assets/img/slides_hero/btp.jpeg');"></div>
+            <div
+              class="slide-image"
+              style="background-image: url('assets/img/slides_hero/btp.jpeg')"
+            ></div>
             <div class="container slide-content">
               <h2>BTP & CONSTRUCTION</h2>
               <p>Solutions innovantes pour des constructions durables.</p>
@@ -97,7 +106,10 @@
 
           <!-- Slide 3 -->
           <div class="slide">
-            <div class="slide-image" style="background-image: url('assets/img/slides_hero/garage.jpg');"></div>
+            <div
+              class="slide-image"
+              style="background-image: url('assets/img/slides_hero/garage.jpg')"
+            ></div>
             <div class="container slide-content">
               <h2>AUTOMOBILE</h2>
               <p>Technologies de pointe pour une mobilité intelligente.</p>
@@ -107,7 +119,10 @@
 
           <!-- Slide 4 -->
           <div class="slide">
-            <div class="slide-image" style="background-image: url('assets/img/slides_hero/vroom.jpg');"></div>
+            <div
+              class="slide-image"
+              style="background-image: url('assets/img/slides_hero/vroom.jpg')"
+            ></div>
             <div class="container slide-content">
               <h2>TRANSPORT</h2>
               <p>Réseaux optimisés pour une connectivité sans frontières.</p>
@@ -117,10 +132,15 @@
 
           <!-- Slide 5 -->
           <div class="slide">
-            <div class="slide-image" style="background-image: url('assets/img/slides_hero/ddcs.jpeg');"></div>
+            <div
+              class="slide-image"
+              style="background-image: url('assets/img/slides_hero/ddcs.jpeg')"
+            ></div>
             <div class="container slide-content">
               <h2>TECHNOLOGIE</h2>
-              <p>Solutions digitales avancées pour transformer les industries.</p>
+              <p>
+                Solutions digitales avancées pour transformer les industries.
+              </p>
               <a href="#" class="btn-get-started">Nos innovations</a>
             </div>
           </div>
@@ -143,13 +163,15 @@
             <!-- Photo du DG -->
             <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
               <div class="position-relative">
-                <img 
-                  src="assets/img/image_dg.jpeg" 
-                  class="img-fluid rounded-4 shadow-lg" 
+                <img
+                  src="assets/img/image_dg.jpeg"
+                  class="img-fluid rounded-4 shadow-lg"
                   alt="Photo du Directeur Général"
-                  style="border: 3px solid #FF7A00; width: 450px;"
+                  style="border: 3px solid #ff7a00; width: 450px"
+                />
+                <div
+                  class="position-absolute bottom-0 end-0 bg-orange text-white p-2 rounded-start"
                 >
-                <div class="position-absolute bottom-0 end-0 bg-orange text-white p-2 rounded-start">
                   <i class="fas fa-quote-left fs-1"></i>
                 </div>
               </div>
@@ -158,35 +180,67 @@
             <!-- Biographie -->
             <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
               <div class="ps-lg-5">
-                <h2 class="mb-4" style="color: #FF7A00;">BIOGRAPHIE YACOUBA DIABY</h2>
-                
+                <h2 class="mb-4" style="color: #ff7a00">
+                  BIOGRAPHIE YACOUBA DIABY
+                </h2>
+
                 <div class="biographie-content">
                   <p class="lead fw-bold">M. YACOUBA DIABY</p>
-                  
-                  <ul class="list-unstyled bio-titles" style="text-align: justify;">
+
+                  <ul
+                    class="list-unstyled bio-titles"
+                    style="text-align: justify"
+                  >
                     <li class="mb-2">
-                      <i class="fas fa-circle text-orange me-2" style="font-size: 8px;"></i>
-                      Manager Général du Conglomérat d’Entreprises qu’il a fondé, avec un chiffre d’affaires de plus de 5,6 milliards FCFA.
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Manager Général du Conglomérat d’Entreprises qu’il a
+                      fondé, avec un chiffre d’affaires de plus de 5,6 milliards
+                      FCFA.
                     </li>
                     <li class="mb-2">
-                      <i class="fas fa-circle text-orange me-2" style="font-size: 8px;"></i>
-                      Précurseur en Côte d’Ivoire dans les domaines du BTP/Génie civil et des Systèmes d’Information.
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Précurseur en Côte d’Ivoire dans les domaines du BTP/Génie
+                      civil et des Systèmes d’Information.
                     </li>
                     <li class="mb-2">
-                      <i class="fas fa-circle text-orange me-2" style="font-size: 8px;"></i>
-                      Ancien cadre de plusieurs sociétés de renom en Europe et en Afrique.
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Ancien cadre de plusieurs sociétés de renom en Europe et
+                      en Afrique.
                     </li>
                     <li class="mb-2">
-                      <i class="fas fa-circle text-orange me-2" style="font-size: 8px;"></i>
-                      Fondateur de la société DIGITAL DATA CAPTURE SOLUTION (DDCS), partenaire de référence en technologies numériques.
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Fondateur de la société DIGITAL DATA CAPTURE SOLUTION
+                      (DDCS), partenaire de référence en technologies
+                      numériques.
                     </li>
                     <li class="mb-2">
-                      <i class="fas fa-circle text-orange me-2" style="font-size: 8px;"></i>
-                      Investisseur dans les secteurs du transport, de la logistique et de l’automobile.
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Investisseur dans les secteurs du transport, de la
+                      logistique et de l’automobile.
                     </li>
                     <li>
-                      <i class="fas fa-circle text-orange me-2" style="font-size: 8px;"></i>
-                      Encadre une équipe de techniciens et de consultants expérimentés pour soutenir le développement industriel en Côte d’Ivoire et dans la sous-région.
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Encadre une équipe de techniciens et de consultants
+                      expérimentés pour soutenir le développement industriel en
+                      Côte d’Ivoire et dans la sous-région.
                     </li>
                   </ul>
                 </div>
@@ -201,67 +255,167 @@
               <div class="col-lg-10">
                 <!-- En-tête -->
                 <div class="section-header text-center mb-5" data-aos="fade-up">
-                  <h1 class="display-4 fw-bold" style="color: #FF7A00; font-size: 1.2rem;">PRÉSENTATION DU FONDATEUR</h1>
-                  <div class="divider mx-auto" style="background-color: #FF7A00; height: 3px; width: 100px;"></div>
+                  <h1
+                    class="display-4 fw-bold"
+                    style="color: #ff7a00; font-size: 1.2rem"
+                  >
+                    PRÉSENTATION DU FONDATEUR
+                  </h1>
+                  <div
+                    class="divider mx-auto"
+                    style="background-color: #ff7a00; height: 3px; width: 100px"
+                  ></div>
                 </div>
 
                 <!-- Contenu en deux colonnes -->
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
                   <!-- Colonne 1 (3 premiers blocs) -->
-                  <div class="col-lg-6 pe-lg-4" style="text-align: justify;">
+                  <div class="col-lg-6 pe-lg-4" style="text-align: justify">
                     <!-- Premier paragraphe avec mise en valeur -->
-                    <div class="lead-paragraph mb-4 p-4 bg-white rounded-3 shadow-sm" style="border-left: 4px solid #FF7A00;">
+                    <div
+                      class="lead-paragraph mb-4 p-4 bg-white rounded-3 shadow-sm"
+                      style="border-left: 4px solid #ff7a00"
+                    >
                       <p class="fs-5">
-                        <span class="fw-bold" style="color: #FF7A00;">YACOUBA DIABY</span>, jeune ivoirien de la Diaspora Allemande qui, inspiré par la politique d'investissement et le climat de paix et de confiance instauré par le Président de la République de Côte d'Ivoire, SEM Alassane OUATTARA, a entrepris de mettre sur pied un Conglomérat d'Entreprises dont il est le Manager Général et qui revendique à ce jour plus de <span class="fw-bold">5,6 Milliards CA</span>.
+                        <span class="fw-bold" style="color: #ff7a00"
+                          >YACOUBA DIABY</span
+                        >, jeune ivoirien de la Diaspora Allemande qui, inspiré
+                        par la politique d'investissement et le climat de paix
+                        et de confiance instauré par le Président de la
+                        République de Côte d'Ivoire, SEM Alassane OUATTARA, a
+                        entrepris de mettre sur pied un Conglomérat
+                        d'Entreprises dont il est le Manager Général et qui
+                        revendique à ce jour plus de
+                        <span class="fw-bold">5,6 Milliards CA</span>.
                       </p>
                     </div>
 
                     <!-- Paragraphe 2 -->
                     <p class="mb-4">
-                      Ayant exercé pendant plusieurs années dans diverses Sociétés de renoms, YACOUBA DIABY fait partie des précurseurs de plusieurs technologies en Côte d'Ivoire dans divers domaines dont celui des BTP/Génie Civil et des Systèmes d'Information (SI). Toutefois, en homme polyvalent et averti, YACOUBA DIABY investira aussi dans plusieurs autres secteurs d'activités, en l'occurrence le secteur de l'Automobile à travers un Pôle logistique de transport de matières premières de béton prêt à l'emploi. Il s'entoure à cet effet de collaborateurs expérimentés en recrutant des techniciens chevronnés qu'il encadre avec l'aide de Consultants expérimentés afin de révolutionner lesdits secteurs en Côte d'Ivoire et dans la sous-région.
+                      Ayant exercé pendant plusieurs années dans diverses
+                      Sociétés de renoms, YACOUBA DIABY fait partie des
+                      précurseurs de plusieurs technologies en Côte d'Ivoire
+                      dans divers domaines dont celui des BTP/Génie Civil et des
+                      Systèmes d'Information (SI). Toutefois, en homme
+                      polyvalent et averti, YACOUBA DIABY investira aussi dans
+                      plusieurs autres secteurs d'activités, en l'occurrence le
+                      secteur de l'Automobile à travers un Pôle logistique de
+                      transport de matières premières de béton prêt à l'emploi.
+                      Il s'entoure à cet effet de collaborateurs expérimentés en
+                      recrutant des techniciens chevronnés qu'il encadre avec
+                      l'aide de Consultants expérimentés afin de révolutionner
+                      lesdits secteurs en Côte d'Ivoire et dans la sous-région.
                     </p>
 
                     <!-- Paragraphe 3 avec entreprise en évidence -->
-                    <div class="company-highlight mb-4 p-3 rounded-2" style="background-color: rgba(255, 122, 0, 0.05); border-left: 3px solid #FF7A00;">
+                    <div
+                      class="company-highlight mb-4 p-3 rounded-2"
+                      style="
+                        background-color: rgba(255, 122, 0, 0.05);
+                        border-left: 3px solid #ff7a00;
+                      "
+                    >
                       <p class="mb-0">
-                        Ainsi, partant de sa première Entreprise <span class="fw-bold" style="color: #FF7A00;">DIGITAL DATA CAPTURE SOLUTION (DDCS)</span>, Partenaire de référence dans le domaine de la Communication Unifiée, Représentante exclusive du Label LIFESIZE, et pionnière de la Visioconférence Haute Définition, d'autres Entreprises verront le jour.
+                        Ainsi, partant de sa première Entreprise
+                        <span class="fw-bold" style="color: #ff7a00"
+                          >DIGITAL DATA CAPTURE SOLUTION (DDCS)</span
+                        >, Partenaire de référence dans le domaine de la
+                        Communication Unifiée, Représentante exclusive du Label
+                        LIFESIZE, et pionnière de la Visioconférence Haute
+                        Définition, d'autres Entreprises verront le jour.
                       </p>
                     </div>
                   </div>
 
                   <!-- Colonne 2 (2 derniers blocs) -->
-                  <div class="col-lg-6 ps-lg-4" style="text-align: justify;">
+                  <div class="col-lg-6 ps-lg-4" style="text-align: justify">
                     <!-- Liste des entreprises -->
                     <div class="entreprise-list mb-4">
                       <div class="entreprise-item d-flex mb-3">
-                        <div class="entreprise-bullet me-3" style="color: #FF7A00;">•</div>
+                        <div
+                          class="entreprise-bullet me-3"
+                          style="color: #ff7a00"
+                        >
+                          •
+                        </div>
                         <div>
-                          <p class="mb-1 fw-bold" style="color: #FF7A00;">YDIA CONSTRUCTION</p>
-                          <p class="mb-0">Entreprise spécialisée dans les BTP/Génie Civil, par ailleurs Représentante exclusive du Groupe Turque ENEZCAM pour la Sous-région Ouest-Africaine en matière des produits dérivés de Menuiserie Aluminium (tous types de systèmes en aluminium, systèmes en verre, systèmes de portes, systèmes de volets, systèmes métal-fer, etc.).</p>
+                          <p class="mb-1 fw-bold" style="color: #ff7a00">
+                            YDIA CONSTRUCTION
+                          </p>
+                          <p class="mb-0">
+                            Entreprise spécialisée dans les BTP/Génie Civil, par
+                            ailleurs Représentante exclusive du Groupe Turque
+                            ENEZCAM pour la Sous-région Ouest-Africaine en
+                            matière des produits dérivés de Menuiserie Aluminium
+                            (tous types de systèmes en aluminium, systèmes en
+                            verre, systèmes de portes, systèmes de volets,
+                            systèmes métal-fer, etc.).
+                          </p>
                         </div>
                       </div>
 
                       <div class="entreprise-item d-flex mb-3">
-                        <div class="entreprise-bullet me-3" style="color: #FF7A00;">•</div>
+                        <div
+                          class="entreprise-bullet me-3"
+                          style="color: #ff7a00"
+                        >
+                          •
+                        </div>
                         <div>
-                          <p class="mb-1 fw-bold" style="color: #FF7A00;">YADI CAR CENTER</p>
-                          <p class="mb-0">Qui excelle aujourd'hui dans la Mécanique Générale via son réseau de garage automobile, dans l'entretien et la réparation de véhicules de toutes marques et dans l'installation de Quick Service au profit de grandes Groupes telles que ORANGE CI et AFG.</p>
+                          <p class="mb-1 fw-bold" style="color: #ff7a00">
+                            YADI CAR CENTER
+                          </p>
+                          <p class="mb-0">
+                            Qui excelle aujourd'hui dans la Mécanique Générale
+                            via son réseau de garage automobile, dans
+                            l'entretien et la réparation de véhicules de toutes
+                            marques et dans l'installation de Quick Service au
+                            profit de grandes Groupes telles que ORANGE CI et
+                            AFG.
+                          </p>
                         </div>
                       </div>
 
                       <div class="entreprise-item d-flex">
-                        <div class="entreprise-bullet me-3" style="color: #FF7A00;">•</div>
+                        <div
+                          class="entreprise-bullet me-3"
+                          style="color: #ff7a00"
+                        >
+                          •
+                        </div>
                         <div>
-                          <p class="mb-1 fw-bold" style="color: #FF7A00;">VROOM</p>
-                          <p class="mb-0">Dont le périmètre d'activités couvre les secteurs de la logistique et du Transport grand public et privé.</p>
+                          <p class="mb-1 fw-bold" style="color: #ff7a00">
+                            VROOM
+                          </p>
+                          <p class="mb-0">
+                            Dont le périmètre d'activités couvre les secteurs de
+                            la logistique et du Transport grand public et privé.
+                          </p>
                         </div>
                       </div>
                     </div>
 
                     <!-- Paragraphe final -->
-                    <div class="closing-paragraph p-3 rounded-2" style="background-color: #f8f9fa; border-top: 2px solid #FF7A00;">
+                    <div
+                      class="closing-paragraph p-3 rounded-2"
+                      style="
+                        background-color: #f8f9fa;
+                        border-top: 2px solid #ff7a00;
+                      "
+                    >
                       <p class="mb-0">
-                        Ce conglomérat qui tend à s'étendre avec d'autres Entreprises en cours de création dans des domaines à forte valeur ajoutée pour l'économie ivoirienne traduit la volonté de YACOUBA DIABY et celle de son équipe à poursuivre les efforts pour l'émergence de la Côte d'Ivoire. Sa particularité réside dans son caractère familial mais très strict, qui met l'aspect Humain au cœur de ses priorités et sur un principe de choix fondé sur les valeurs de <span class="fw-bold">Responsabilité – Ethique – Qualité</span>.
+                        Ce conglomérat qui tend à s'étendre avec d'autres
+                        Entreprises en cours de création dans des domaines à
+                        forte valeur ajoutée pour l'économie ivoirienne traduit
+                        la volonté de YACOUBA DIABY et celle de son équipe à
+                        poursuivre les efforts pour l'émergence de la Côte
+                        d'Ivoire. Sa particularité réside dans son caractère
+                        familial mais très strict, qui met l'aspect Humain au
+                        cœur de ses priorités et sur un principe de choix fondé
+                        sur les valeurs de
+                        <span class="fw-bold"
+                          >Responsabilité – Ethique – Qualité</span
+                        >.
                       </p>
                     </div>
                   </div>
@@ -372,8 +526,11 @@
               </div>
               <div class="filiale-description">
                 <h3>YADI CAR CENTER</h3>
-                <p  style="text-align: justify;">
-                  Depuis 2019, YADI CAR CENTER vous accueille dans un garage moderne, équipé des meilleures technologies et d’un personnel hautement qualifié. Confort et efficacité réunis pour votre tranquillité.
+                <p style="text-align: justify">
+                  Depuis 2019, YADI CAR CENTER vous accueille dans un garage
+                  moderne, équipé des meilleures technologies et d’un personnel
+                  hautement qualifié. Confort et efficacité réunis pour votre
+                  tranquillité.
                 </p>
               </div>
             </a>
@@ -395,8 +552,10 @@
               </div>
               <div class="filiale-description">
                 <h3>DDCS</h3>
-                <p style="text-align: justify;">
-                  Intégrateur technologique depuis 2017, nous optimisons la performance et sécurisons les systèmes des entreprises grâce à des solutions sur mesure et innovantes.
+                <p style="text-align: justify">
+                  Intégrateur technologique depuis 2017, nous optimisons la
+                  performance et sécurisons les systèmes des entreprises grâce à
+                  des solutions sur mesure et innovantes.
                 </p>
               </div>
             </a>
@@ -418,13 +577,15 @@
               </div>
               <div class="filiale-description">
                 <h3>YDIA-CONSTRUCTION</h3>
-                <p style="text-align: justify;">
-                  Fondée en 2022, YDIA CONSTRUCTION est spécialisée dans le BTP (Batiment et Travaux Publics), avec des solutions innovantes et durables pour tous vos projets.
+                <p style="text-align: justify">
+                  Fondée en 2022, YDIA CONSTRUCTION est spécialisée dans le BTP
+                  (Batiment et Travaux Publics), avec des solutions innovantes
+                  et durables pour tous vos projets.
                 </p>
               </div>
             </a>
           </div>
-          
+
           <!-- Filiale 4 -->
           <div class="filiale-item">
             <a
@@ -441,8 +602,10 @@
               </div>
               <div class="filiale-description">
                 <h3>VROOM</h3>
-                <p style="text-align: justify;">
-                  Créée en 2021, VROOM propose des solutions de transport sur mesure partout en Côte d’Ivoire, avec fiabilité, sécurité et professionnalisme.
+                <p style="text-align: justify">
+                  Créée en 2021, VROOM propose des solutions de transport sur
+                  mesure partout en Côte d’Ivoire, avec fiabilité, sécurité et
+                  professionnalisme.
                 </p>
               </div>
             </a>
@@ -548,7 +711,6 @@
           </div>
         </div>
       </section> -->
-      
 
       <!-- Partners Section -->
       <section id="partners" class="partners section light-background">
@@ -561,75 +723,158 @@
             <div class="partner-track">
               <!-- Première série de logos -->
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/0.jpg" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/0.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/1.png" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/1.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/2.jpg" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/2.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/3.png" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/3.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/4.jpg" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/4.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/5.jpg" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/5.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/6.jpg" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/6.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/7.jpg" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/7.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/8.png" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/8.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/9.png" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/9.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
-              
+
               <!-- Duplication pour effet de boucle continu -->
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/10.png" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/10.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/11.jpg" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/11.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/12.png" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/12.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/13.jpg" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/13.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/14.png" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/14.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/15.png" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/15.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/16.png" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/16.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/17.jpg" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/17.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/18.png" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/18.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/19.jpg" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/19.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
               <div class="col-xl-2 col-md-3 col-6 partner-logo">
-                <img src="assets/img/clients/20.png" class="img-fluid" alt="Partenaire">
+                <img
+                  src="assets/img/clients/20.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
-
 
       <!-- Features Section -->
       <section id="features" class="features section">
@@ -638,27 +883,47 @@
           <p>Les valeurs qui unissent nos 4 entreprises</p>
         </div>
         <div class="container">
-          <ul class="nav nav-tabs row d-flex" data-aos="fade-up" data-aos-delay="100">
+          <ul
+            class="nav nav-tabs row d-flex"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <li class="nav-item col-3">
-              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <a
+                class="nav-link active show"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-1"
+              >
                 <i class="bi bi-people-fill"></i>
                 <h4 class="d-none d-lg-block">Impact Social</h4>
               </a>
             </li>
             <li class="nav-item col-3">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-2"
+              >
                 <i class="bi bi-tree-fill"></i>
                 <h4 class="d-none d-lg-block">Éco-responsabilité</h4>
               </a>
             </li>
             <li class="nav-item col-3">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-3"
+              >
                 <i class="bi bi-award-fill"></i>
                 <h4 class="d-none d-lg-block">Excellence</h4>
               </a>
             </li>
             <li class="nav-item col-3">
-              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-4"
+              >
                 <i class="bi bi-lightbulb-fill"></i>
                 <h4 class="d-none d-lg-block">Innovation</h4>
               </a>
@@ -672,28 +937,42 @@
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                   <h3>Développement humain et local</h3>
                   <p class="fst-italic">
-                    "Nous investissons dans les talents et les communautés où nous opérons"
+                    "Nous investissons dans les talents et les communautés où
+                    nous opérons"
                   </p>
                   <ul>
                     <li>
                       <i class="bi bi-check2-all"></i>
-                      <span>750 emplois créés en 2023 dont 65% pour les jeunes</span>
+                      <span
+                        >750 emplois créés en 2023 dont 65% pour les
+                        jeunes</span
+                      >
                     </li>
                     <li>
                       <i class="bi bi-check2-all"></i>
-                      <span>15 écoles rénovées dans nos zones d'intervention</span>
+                      <span
+                        >15 écoles rénovées dans nos zones d'intervention</span
+                      >
                     </li>
                     <li>
                       <i class="bi bi-check2-all"></i>
-                      <span>Programme "Femmes Entrepreneures" avec 30 bénéficiaires</span>
+                      <span
+                        >Programme "Femmes Entrepreneures" avec 30
+                        bénéficiaires</span
+                      >
                     </li>
                   </ul>
                   <p>
-                    Notre fonds social consacre 5% de nos bénéfices annuels à des initiatives éducatives et de formation professionnelle.
+                    Notre fonds social consacre 5% de nos bénéfices annuels à
+                    des initiatives éducatives et de formation professionnelle.
                   </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/engagement-social.png" alt="Impact social" class="img-fluid">
+                  <img
+                    src="assets/img/engagement-social.png"
+                    alt="Impact social"
+                    class="img-fluid"
+                  />
                 </div>
               </div>
             </div>
@@ -704,7 +983,8 @@
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                   <h3>Engagement environnemental</h3>
                   <p>
-                    Nos 4 entreprises unies pour réduire notre empreinte écologique :
+                    Nos 4 entreprises unies pour réduire notre empreinte
+                    écologique :
                   </p>
                   <ul>
                     <li>
@@ -713,19 +993,29 @@
                     </li>
                     <li>
                       <i class="bi bi-check2-all"></i>
-                      <span>30% de véhicules hybrides dans notre flotte d'ici 2024</span>
+                      <span
+                        >30% de véhicules hybrides dans notre flotte d'ici
+                        2024</span
+                      >
                     </li>
                     <li>
                       <i class="bi bi-check2-all"></i>
-                      <span>Politique Zéro Plastique dans toutes nos agences</span>
+                      <span
+                        >Politique Zéro Plastique dans toutes nos agences</span
+                      >
                     </li>
                   </ul>
                   <p class="fst-italic">
-                    Nous visons la neutralité carbone pour 2030 à travers nos investissements dans les énergies renouvelables.
+                    Nous visons la neutralité carbone pour 2030 à travers nos
+                    investissements dans les énergies renouvelables.
                   </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/engagement-eco.png" alt="Éco-responsabilité" class="img-fluid">
+                  <img
+                    src="assets/img/engagement-eco.png"
+                    alt="Éco-responsabilité"
+                    class="img-fluid"
+                  />
                 </div>
               </div>
             </div>
@@ -741,7 +1031,9 @@
                   <ul>
                     <li>
                       <i class="bi bi-check2-all"></i>
-                      <span>Certifications ISO 9001 pour toutes nos filières</span>
+                      <span
+                        >Certifications ISO 9001 pour toutes nos filières</span
+                      >
                     </li>
                     <li>
                       <i class="bi bi-check2-all"></i>
@@ -749,15 +1041,22 @@
                     </li>
                     <li>
                       <i class="bi bi-check2-all"></i>
-                      <span>50 heures de formation annuelle par collaborateur</span>
+                      <span
+                        >50 heures de formation annuelle par collaborateur</span
+                      >
                     </li>
                   </ul>
                   <p>
-                    Notre système qualité unifié assure les mêmes standards élevés à travers l'ensemble de nos entreprises.
+                    Notre système qualité unifié assure les mêmes standards
+                    élevés à travers l'ensemble de nos entreprises.
                   </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/engagement-quality.png" alt="Excellence" class="img-fluid">
+                  <img
+                    src="assets/img/engagement-quality.png"
+                    alt="Excellence"
+                    class="img-fluid"
+                  />
                 </div>
               </div>
             </div>
@@ -777,7 +1076,10 @@
                     </li>
                     <li>
                       <i class="bi bi-check2-all"></i>
-                      <span>Prix "Best Innovator" 2023 pour notre solution BTP 4.0</span>
+                      <span
+                        >Prix "Best Innovator" 2023 pour notre solution BTP
+                        4.0</span
+                      >
                     </li>
                     <li>
                       <i class="bi bi-check2-all"></i>
@@ -785,11 +1087,16 @@
                     </li>
                   </ul>
                   <p class="fst-italic">
-                    8% de notre chiffre d'affaires est réinvesti en innovation chaque année.
+                    8% de notre chiffre d'affaires est réinvesti en innovation
+                    chaque année.
                   </p>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
-                  <img src="assets/img/engagement-innovation.png" alt="Innovation" class="img-fluid">
+                  <img
+                    src="assets/img/engagement-innovation.png"
+                    alt="Innovation"
+                    class="img-fluid"
+                  />
                 </div>
               </div>
             </div>
@@ -955,7 +1262,12 @@
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     <span
-                      >La construction n'est pas simplement une question de béton et de briques, c'est l'art de façonner l'avenir, brique par brique, en construisant des espaces qui inspirent et durent pour les générations à venir. Chaque projet est une promesse de qualité et de solidité, un investissement pour demain.</span
+                      >La construction n'est pas simplement une question de
+                      béton et de briques, c'est l'art de façonner l'avenir,
+                      brique par brique, en construisant des espaces qui
+                      inspirent et durent pour les générations à venir. Chaque
+                      projet est une promesse de qualité et de solidité, un
+                      investissement pour demain.</span
                     >
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
@@ -982,7 +1294,12 @@
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     <span
-                      >Chaque véhicule est bien plus qu'un simple moyen de transport : c'est une extension de notre quotidien. Dans notre garage, nous ne nous contentons pas de réparer des voitures, nous offrons la tranquillité d'esprit, un service impeccable et la certitude que chaque conducteur pourra reprendre la route en toute sécurité.</span
+                      >Chaque véhicule est bien plus qu'un simple moyen de
+                      transport : c'est une extension de notre quotidien. Dans
+                      notre garage, nous ne nous contentons pas de réparer des
+                      voitures, nous offrons la tranquillité d'esprit, un
+                      service impeccable et la certitude que chaque conducteur
+                      pourra reprendre la route en toute sécurité.</span
                     >
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
@@ -1009,7 +1326,13 @@
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     <span
-                      >Que ce soit pour un déplacement professionnel ou pour un événement spécial, chaque voyage mérite d'être exceptionnel. Nos services de transport sont conçus pour vous offrir un confort optimal, une ponctualité sans faille et un trajet sans souci. Le transport n'est pas seulement une question de distance, mais d'expérience.</span
+                      >Que ce soit pour un déplacement professionnel ou pour un
+                      événement spécial, chaque voyage mérite d'être
+                      exceptionnel. Nos services de transport sont conçus pour
+                      vous offrir un confort optimal, une ponctualité sans
+                      faille et un trajet sans souci. Le transport n'est pas
+                      seulement une question de distance, mais
+                      d'expérience.</span
                     >
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
@@ -1036,7 +1359,12 @@
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     <span
-                      >La technologie n'est pas seulement un outil, elle est le moteur qui propulse l'innovation et transforme le monde. Que ce soit dans la gestion de projets, l'automatisation des processus ou les nouvelles découvertes, la technologie est au cœur de toutes les révolutions qui façonnent notre avenir.</span
+                      >La technologie n'est pas seulement un outil, elle est le
+                      moteur qui propulse l'innovation et transforme le monde.
+                      Que ce soit dans la gestion de projets, l'automatisation
+                      des processus ou les nouvelles découvertes, la technologie
+                      est au cœur de toutes les révolutions qui façonnent notre
+                      avenir.</span
                     >
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
@@ -1063,7 +1391,12 @@
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
                     <span
-                      >L'excellence dans notre métier ne vient pas seulement de l'exécution parfaite, mais de l'engagement constant à améliorer chaque aspect de nos services, de la qualité des matériaux à l'efficacité des solutions technologiques que nous utilisons. Chaque projet, chaque transport, chaque service compte.</span
+                      >L'excellence dans notre métier ne vient pas seulement de
+                      l'exécution parfaite, mais de l'engagement constant à
+                      améliorer chaque aspect de nos services, de la qualité des
+                      matériaux à l'efficacité des solutions technologiques que
+                      nous utilisons. Chaque projet, chaque transport, chaque
+                      service compte.</span
                     >
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
@@ -1495,11 +1828,7 @@
             >
               <div class="member">
                 <div class="pic">
-                  <img
-                    src="assets/img/team/dg.png"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img src="assets/img/team/dg.png" class="img-fluid" alt="" />
                 </div>
                 <div class="member-info">
                   <h4>M. Yacouba Diaby</h4>
@@ -1605,7 +1934,7 @@
                   >
                     <i class="bi bi-telephone"></i>
                     <h3>Appelez-nous</h3>
-                    <p>(+225) 27  22 39 14 40</p>
+                    <p>(+225) 27 22 39 14 40</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -1697,14 +2026,14 @@
       <div class="container footer-top">
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="index.php" class="logo d-flex align-items-center">
               <span class="sitename">Yadi-Group</span>
             </a>
             <div class="footer-contact pt-3">
               <p>Rond point CNPS</p>
               <p>Cocody, Abidjan</p>
               <p class="mt-3">
-                <strong>Téléphone:</strong> <span>(+225) 27  22 39 14 40</span>
+                <strong>Téléphone:</strong> <span>(+225) 27 22 39 14 40</span>
               </p>
               <p><strong>Email:</strong> <span>Groupe@yadi.ci</span></p>
             </div>
@@ -1719,9 +2048,12 @@
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Liens rapides</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">À propos</a></li>
               <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Nos filliales</a>
+                <i class="bi bi-chevron-right"></i> <a href="#">À propos</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Nos filliales</a>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i> <a href="#">Engagements</a>
@@ -1741,7 +2073,8 @@
             <h4>Nos filliales</h4>
             <ul>
               <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Yadi-Car-Center</a>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Yadi-Car-Center</a>
               </li>
               <li>
                 <i class="bi bi-chevron-right"></i>
@@ -1751,16 +2084,15 @@
                 <i class="bi bi-chevron-right"></i>
                 <a href="#">Ydia-Construction</a>
               </li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Vroom</a>
-              </li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Vroom</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-12 footer-newsletter">
             <h4>Notre newsletter</h4>
             <p>
-              Abonnez-vous à notre newsletter et recevez les dernières nouveautés sur nos produits et services !
+              Abonnez-vous à notre newsletter et recevez les dernières
+              nouveautés sur nos produits et services !
             </p>
             <form
               action="forms/newsletter.php"
@@ -1785,12 +2117,14 @@
 
       <div class="container copyright text-center mt-4">
         <p>
-          © <span>Copyright</span> <strong class="px-1 sitename">Yadi-Group</strong>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Yadi-Group</strong>
           <span>Tous droits réservés</span>
         </p>
         <div class="credits">
           Conçu par
-          <a href="https://github.com/kouassikonan57/">KFernand</a> Distribué par
+          <a href="https://github.com/kouassikonan57/">KFernand</a> Distribué
+          par
           <a href="mailto:Groupe@yadi.ci">Yadi-Group</a>
         </div>
       </div>
@@ -1845,19 +2179,19 @@
     </script> -->
 
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const slides = document.querySelectorAll('.slide');
-        const dots = document.querySelectorAll('.nav-dot');
+      document.addEventListener("DOMContentLoaded", function () {
+        const slides = document.querySelectorAll(".slide");
+        const dots = document.querySelectorAll(".nav-dot");
         let currentIndex = 0;
         const slideDuration = 6000; // 6 seconds per slide
         let slideInterval;
 
         function showSlide(index) {
-          slides.forEach(slide => slide.classList.remove('active'));
-          dots.forEach(dot => dot.classList.remove('active'));
-          
-          slides[index].classList.add('active');
-          dots[index].classList.add('active');
+          slides.forEach((slide) => slide.classList.remove("active"));
+          dots.forEach((dot) => dot.classList.remove("active"));
+
+          slides[index].classList.add("active");
+          dots[index].classList.add("active");
           currentIndex = index;
         }
 
@@ -1875,9 +2209,9 @@
         startSlideshow();
 
         // Dot navigation
-        dots.forEach(dot => {
-          dot.addEventListener('click', function() {
-            const slideIndex = parseInt(this.getAttribute('data-slide'));
+        dots.forEach((dot) => {
+          dot.addEventListener("click", function () {
+            const slideIndex = parseInt(this.getAttribute("data-slide"));
             showSlide(slideIndex);
             clearInterval(slideInterval);
             startSlideshow();
