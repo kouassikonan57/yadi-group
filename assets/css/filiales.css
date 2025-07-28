@@ -1,0 +1,321 @@
+.rts-company-storyhear {
+  /* TIMELINE
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* EFFECTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* GENERAL MEDIA QUERIES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+}
+.rts-company-storyhear .intro {
+  background: #FFE4C4;
+  padding: 100px 0;
+}
+.rts-company-storyhear .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.rts-company-storyhear h1 {
+  font-size: 3.5rem;
+}
+.rts-company-storyhear .timeline ul {
+  background: #fff;
+  padding: 0 0;
+  margin: 0;
+}
+@media only screen and (max-width: 575px) {
+  .rts-company-storyhear .timeline ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}
+.rts-company-storyhear .timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 1px;
+  margin: 0 auto;
+  padding-top: 137px;
+  background: #E4E4E4;
+}
+@media only screen and (max-width: 767px) {
+  .rts-company-storyhear .timeline ul li.first {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rts-company-storyhear .timeline ul li {
+    width: 0;
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rts-company-storyhear .timeline ul li {
+    width: 0;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 575px) {
+  .rts-company-storyhear .timeline ul li {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .rts-company-storyhear .timeline ul li {
+    padding-top: 0;
+    margin-top: -40px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .rts-company-storyhear .timeline ul li {
+    padding-top: 30px;
+  }
+}
+.rts-company-storyhear .timeline ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+.rts-company-storyhear .timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+}
+.rts-company-storyhear .timeline ul li div::before {
+  content: "";
+  position: absolute;
+  bottom: 102px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rts-company-storyhear .timeline ul li div::before {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rts-company-storyhear .timeline ul li div::before {
+    display: none;
+  }
+}
+.rts-company-storyhear .timeline ul li:nth-child(even) div {
+  left: 165px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rts-company-storyhear .timeline ul li:nth-child(even) div {
+    left: unset;
+  }
+}
+.rts-company-storyhear .timeline ul li:nth-child(even) div section {
+  text-align: left;
+}
+.rts-company-storyhear .timeline ul li:nth-child(even) div section svg {
+  right: auto;
+  left: -102px;
+}
+@media only screen and (max-width: 767px) {
+  .rts-company-storyhear .timeline ul li:nth-child(even) div section svg {
+    left: 0;
+  }
+}
+.rts-company-storyhear .timeline ul li:nth-child(even) div::before {
+  left: -163px;
+  border-width: 1px 75px 1px 0;
+  border-color: #E4E4E4;
+}
+.rts-company-storyhear .timeline ul li:nth-child(odd) div {
+  left: -560px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rts-company-storyhear .timeline ul li:nth-child(odd) div {
+    left: -334px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rts-company-storyhear .timeline ul li:nth-child(odd) div {
+    left: -329px;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 575px) {
+  .rts-company-storyhear .timeline ul li:nth-child(odd) div {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .rts-company-storyhear .timeline ul li:nth-child(odd) div {
+    left: -55px;
+  }
+}
+.rts-company-storyhear .timeline ul li:nth-child(odd) div section img {
+  left: auto;
+  right: -103px;
+}
+@media only screen and (max-width: 767px) {
+  .rts-company-storyhear .timeline ul li:nth-child(odd) div section img {
+    right: 0;
+  }
+}
+.rts-company-storyhear .timeline ul li:nth-child(odd) div::before {
+  right: -161px;
+  border-width: 1px 73px 1px 0;
+  border-color: #E4E4E4;
+}
+.rts-company-storyhear .timeline ul li .time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FF6600;
+  font-family: var(--font-primary);
+}
+.rts-company-storyhear .timeline ul li.item {
+  position: relative;
+}
+.rts-company-storyhear .timeline ul li.item img {
+  position:static;
+  height: 150px;
+  width: 200px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rts-company-storyhear .timeline ul li.item img {
+    position: relative;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 575px) {
+  .rts-company-storyhear .timeline ul li.item img {
+    position: relative;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .rts-company-storyhear .timeline ul li.item img {
+    position: relative;
+  }
+}
+.rts-company-storyhear .timeline ul li::after {
+  transition: background 0.5s ease-in-out;
+}
+.rts-company-storyhear .timeline ul li.in-view::after {
+  background: transparent;
+  display: none;
+}
+.rts-company-storyhear .timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.rts-company-storyhear .timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+.rts-company-storyhear .timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+.rts-company-storyhear .timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+  background: transparent;
+}
+@media screen and (max-width: 900px) {
+  .rts-company-storyhear .timeline ul li div {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 900px) and (max-width: 767px) {
+  .rts-company-storyhear .timeline ul li div {
+    left: -326px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .rts-company-storyhear .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 768px) and (max-width: 991px) {
+  .rts-company-storyhear .timeline ul li:nth-child(even) div {
+    left: 90px;
+  }
+}
+@media only screen and (max-width: 900px) and (max-width: 767px) {
+  .rts-company-storyhear .timeline ul li:nth-child(even) div {
+    left: -327px;
+    padding: 30px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .rts-company-storyhear .timeline ul li {
+    margin-left: 20px;
+  }
+  .rts-company-storyhear .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .rts-company-storyhear .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+}
+@media only screen and (max-width: 600px) and (max-width: 575px) {
+  .rts-company-storyhear .timeline ul li:nth-child(even) div {
+    left: -39px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .rts-company-storyhear .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+  }
+}
+.rts-company-storyhear .timeline section {
+  position: relative;
+  text-align: right;
+}
+@media only screen and (max-width: 767px) {
+  .rts-company-storyhear .timeline section {
+    text-align: left;
+  }
+}
+.rts-company-storyhear .timeline section img {
+  position: absolute;
+  bottom: 100%;
+  left: -103px;
+}
+@media only screen and (max-width: 767px) {
+  .rts-company-storyhear .timeline section img {
+    left: 0;
+  }
+}
+.rts-company-storyhear .timeline section svg {
+  position: absolute;
+  right: -103px;
+  top: 0;
+  height: 80px;
+  width: 80px;
+  padding: 17px;
+  background: transparent;
+  border: 1px solid #E4E4E4;
+  box-shadow: 0px 5px 37px rgba(84, 84, 84, 0.18);
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rts-company-storyhear .timeline section svg {
+    position: relative;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .rts-company-storyhear .timeline section svg {
+    position: relative;
+    right: 0;
+    top: -20px;
+  }
+}

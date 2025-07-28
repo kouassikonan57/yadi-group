@@ -1,38 +1,72 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Animation au scroll
-    const filialeItems = document.querySelectorAll('.filiale-item');
-    
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                
-                // Animation séquentielle pour chaque élément
-                const index = Array.from(filialeItems).indexOf(entry.target);
-                entry.target.style.transitionDelay = `${index * 0.1}s`;
+(function ($) {
+
+
+     'use strict';
+  
+    var imJs = {
+        m: function (e) {
+            imJs.d();
+            imJs.methods();
+        },
+        d: function (e) {
+            this._window = $(window),
+            this._document = $(document),
+            this._body = $('body'),
+            this._html = $('html')
+        },
+        methods: function (e) {
+           
+            imJs.timeLineStory();
+          
+        },
+          timeLineStory: function () {
+          (function() {
+
+            'use strict';
+          
+            // define variables
+            var items = document.querySelectorAll(".timeline li");
+          
+            // check if an element is in viewport
+            // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+            function isElementInViewport(el) {
+              var rect = el.getBoundingClientRect();
+              return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+              );
             }
-        });
-    }, {
-        threshold: 0.1
-    });
-    
-    filialeItems.forEach(item => {
-        observer.observe(item);
-    });
-    
-    // Redirection au clic sur toute la carte filiale
-    document.querySelectorAll('.filiale-link').forEach(link => {
-        link.addEventListener('click', function(e) {
-            // Si on clique directement sur un lien dans la description, on ne fait rien de plus
-            if (e.target.tagName === 'A' && e.target.href !== this.href) {
-                return;
+          
+            function callbackFunc() {
+              for (var i = 0; i < items.length; i++) {
+                if (isElementInViewport(items[i])) {
+                  items[i].classList.add("in-view");
+                  console.log("IN VIEW", items[i]);
+                }
+              }
             }
-            
-            // Sinon, on redirige vers le lien principal de la filiale
-            if (e.target !== this && !this.contains(e.target)) return;
-            
-            e.preventDefault();
-            window.open(this.href, '_blank');
-        });
-    });
-});
+          
+            // listen for events
+            window.addEventListener("load", callbackFunc);
+            window.addEventListener("resize", callbackFunc);
+            window.addEventListener("scroll", callbackFunc);
+          
+          })();
+          
+          
+          
+        }
+
+    }
+        imJs.m();
+})(jQuery, window) 
+
+
+
+
+
+
+
+  
