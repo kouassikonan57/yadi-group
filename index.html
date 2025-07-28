@@ -1,521 +1,758 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Yadi Group</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>Yadi Group</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect" />
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/filiales.css" rel="stylesheet" />
+  </head>
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet" />
-  <link href="assets/css/filiales.css" rel="stylesheet" />
-</head>
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/logo_yg.png" alt="" />
+        </a>
 
-<body class="index-page">
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo_yg.png" alt="" />
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#about" class="active">À propos</a></li>
-          <li><a href="#filiales-section">Nos filliales</a></li>
-          <li><a href="#features">Engagements</a></li>
-          <li><a href="#portfolio">Actualités</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-    </div>
-  </header>
-
-  <main class="main">
-    <!-- Hero Section -->
-    <!-- Hero Section - Image Slides -->
-    <section id="hero" class="hero section dark-background">
-      <!-- Slides Container -->
-      <div class="hero-slides">
-        <!-- Slide 1 -->
-        <div class="slide active">
-          <div class="slide-image" style="background-image: url('assets/img/slides_hero/groupe.jpg')"></div>
-          <div class="container slide-content">
-            <h2>PLANIFIER. LANCER. DÉVELOPPER.</h2>
-            <p>
-              Yadi Group, c'est l'ambition de construire, d'innover et de
-              connecter.
-            </p>
-            <a href="#" class="btn-get-started">En savoir plus</a>
-          </div>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="slide">
-          <div class="slide-image" style="background-image: url('assets/img/slides_hero/btp.jpeg')"></div>
-          <div class="container slide-content">
-            <h2>BTP & CONSTRUCTION</h2>
-            <p>Solutions innovantes pour des constructions durables.</p>
-            <a href="#" class="btn-get-started">Découvrir</a>
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="slide">
-          <div class="slide-image" style="background-image: url('assets/img/slides_hero/garage.jpg')"></div>
-          <div class="container slide-content">
-            <h2>AUTOMOBILE</h2>
-            <p>Technologies de pointe pour une mobilité intelligente.</p>
-            <a href="#" class="btn-get-started">Explorer</a>
-          </div>
-        </div>
-
-        <!-- Slide 4 -->
-        <div class="slide">
-          <div class="slide-image" style="background-image: url('assets/img/slides_hero/vroom.jpg')"></div>
-          <div class="container slide-content">
-            <h2>TRANSPORT</h2>
-            <p>Réseaux optimisés pour une connectivité sans frontières.</p>
-            <a href="#" class="btn-get-started">Voir solutions</a>
-          </div>
-        </div>
-
-        <!-- Slide 5 -->
-        <div class="slide">
-          <div class="slide-image" style="background-image: url('assets/img/slides_hero/ddcs.jpeg')"></div>
-          <div class="container slide-content">
-            <h2>TECHNOLOGIE</h2>
-            <p>
-              Solutions digitales avancées pour transformer les industries.
-            </p>
-            <a href="#" class="btn-get-started">Nos innovations</a>
-          </div>
-        </div>
-
-        <!-- Navigation -->
-        <div class="slide-nav">
-          <button class="nav-dot active" data-slide="0"></button>
-          <button class="nav-dot" data-slide="1"></button>
-          <button class="nav-dot" data-slide="2"></button>
-          <button class="nav-dot" data-slide="3"></button>
-          <button class="nav-dot" data-slide="4"></button>
-        </div>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#about" class="active">À propos</a></li>
+            <li><a href="#filiales-section">Nos filliales</a></li>
+            <li><a href="#features">Engagements</a></li>
+            <li><a href="#portfolio">Actualités</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <!-- About Section -->
-    <section id="about" class="about section">
-      <div class="container">
-        <div class="row gy-4 align-items-center">
-          <!-- Photo du DG -->
-          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
-            <div class="position-relative">
-              <img src="assets/img/image_dg.jpeg" class="img-fluid rounded-4 shadow-lg" alt="Photo du Directeur Général"
-                style="border: 3px solid #ff7a00; width: 450px" />
-              <div class="position-absolute bottom-0 end-0 bg-orange text-white p-2 rounded-start">
-                <i class="fas fa-quote-left fs-1"></i>
-              </div>
+    <main class="main">
+      <!-- Hero Section -->
+      <!-- Hero Section - Image Slides -->
+      <section id="hero" class="hero section dark-background">
+        <!-- Slides Container -->
+        <div class="hero-slides">
+          <!-- Slide 1 -->
+          <div class="slide active">
+            <div
+              class="slide-image"
+              style="background-image: url('assets/img/slides_hero/groupe.jpg')"
+            ></div>
+            <div class="container slide-content">
+              <h2>PLANIFIER. LANCER. DÉVELOPPER.</h2>
+              <p>
+                Yadi Group, c'est l'ambition de construire, d'innover et de
+                connecter.
+              </p>
+              <a href="#" class="btn-get-started">En savoir plus</a>
             </div>
           </div>
 
-          <!-- Biographie -->
-          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
-            <div class="ps-lg-5">
-              <h2 class="mb-4" style="color: #ff7a00">
-                BIOGRAPHIE YACOUBA DIABY
-              </h2>
-
-              <div class="biographie-content">
-                <p class="lead fw-bold">M. YACOUBA DIABY</p>
-
-                <ul class="list-unstyled bio-titles" style="text-align: justify">
-                  <li class="mb-2">
-                    <i class="fas fa-circle text-orange me-2" style="font-size: 8px"></i>
-                    Manager Général du Conglomérat d’Entreprises qu’il a
-                    fondé, avec un chiffre d’affaires de plus de 5,6 milliards
-                    FCFA.
-                  </li>
-                  <li class="mb-2">
-                    <i class="fas fa-circle text-orange me-2" style="font-size: 8px"></i>
-                    Précurseur en Côte d’Ivoire dans les domaines du BTP/Génie
-                    civil et des Systèmes d’Information.
-                  </li>
-                  <li class="mb-2">
-                    <i class="fas fa-circle text-orange me-2" style="font-size: 8px"></i>
-                    Ancien cadre de plusieurs sociétés de renom en Europe et
-                    en Afrique.
-                  </li>
-                  <li class="mb-2">
-                    <i class="fas fa-circle text-orange me-2" style="font-size: 8px"></i>
-                    Fondateur de la société DIGITAL DATA CAPTURE SOLUTION
-                    (DDCS), partenaire de référence en technologies
-                    numériques.
-                  </li>
-                  <li class="mb-2">
-                    <i class="fas fa-circle text-orange me-2" style="font-size: 8px"></i>
-                    Investisseur dans les secteurs du transport, de la
-                    logistique et de l’automobile.
-                  </li>
-                  <li>
-                    <i class="fas fa-circle text-orange me-2" style="font-size: 8px"></i>
-                    Encadre une équipe de techniciens et de consultants
-                    expérimentés pour soutenir le développement industriel en
-                    Côte d’Ivoire et dans la sous-région.
-                  </li>
-                </ul>
-              </div>
+          <!-- Slide 2 -->
+          <div class="slide">
+            <div
+              class="slide-image"
+              style="background-image: url('assets/img/slides_hero/btp.jpeg')"
+            ></div>
+            <div class="container slide-content">
+              <h2>BTP & CONSTRUCTION</h2>
+              <p>Solutions innovantes pour des constructions durables.</p>
+              <a href="#" class="btn-get-started">Découvrir</a>
             </div>
           </div>
+
+          <!-- Slide 3 -->
+          <div class="slide">
+            <div
+              class="slide-image"
+              style="background-image: url('assets/img/slides_hero/garage.jpg')"
+            ></div>
+            <div class="container slide-content">
+              <h2>AUTOMOBILE</h2>
+              <p>Technologies de pointe pour une mobilité intelligente.</p>
+              <a href="#" class="btn-get-started">Explorer</a>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="slide">
+            <div
+              class="slide-image"
+              style="background-image: url('assets/img/slides_hero/vroom.jpg')"
+            ></div>
+            <div class="container slide-content">
+              <h2>TRANSPORT</h2>
+              <p>Réseaux optimisés pour une connectivité sans frontières.</p>
+              <a href="#" class="btn-get-started">Voir solutions</a>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="slide">
+            <div
+              class="slide-image"
+              style="background-image: url('assets/img/slides_hero/ddcs.jpeg')"
+            ></div>
+            <div class="container slide-content">
+              <h2>TECHNOLOGIE</h2>
+              <p>
+                Solutions digitales avancées pour transformer les industries.
+              </p>
+              <a href="#" class="btn-get-started">Nos innovations</a>
+            </div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="slide-nav">
+            <button class="nav-dot active" data-slide="0"></button>
+            <button class="nav-dot" data-slide="1"></button>
+            <button class="nav-dot" data-slide="2"></button>
+            <button class="nav-dot" data-slide="3"></button>
+            <button class="nav-dot" data-slide="4"></button>
+          </div>
         </div>
-      </div>
-      <!-- Présentation Fondateur Section -->
-      <section id="presentation" class="presentation section bg-light">
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about section">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-10">
-              <!-- En-tête -->
-              <div class="section-header text-center mb-5" data-aos="fade-up">
-                <h1 class="display-4 fw-bold" style="color: #ff7a00; font-size: 1.2rem">
-                  PRÉSENTATION DU FONDATEUR
-                </h1>
-                <div class="divider mx-auto" style="background-color: #ff7a00; height: 3px; width: 100px"></div>
+          <div class="row gy-4 align-items-center">
+            <!-- Photo du DG -->
+            <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+              <div class="position-relative">
+                <img
+                  src="assets/img/image_dg.jpeg"
+                  class="img-fluid rounded-4 shadow-lg"
+                  alt="Photo du Directeur Général"
+                  style="border: 3px solid #ff7a00; width: 450px"
+                />
+                <div
+                  class="position-absolute bottom-0 end-0 bg-orange text-white p-2 rounded-start"
+                >
+                  <i class="fas fa-quote-left fs-1"></i>
+                </div>
               </div>
+            </div>
 
-              <!-- Contenu en deux colonnes -->
-              <div class="row" data-aos="fade-up" data-aos-delay="100">
-                <!-- Colonne 1 (3 premiers blocs) -->
-                <div class="col-lg-6 pe-lg-4" style="text-align: justify">
-                  <!-- Premier paragraphe avec mise en valeur -->
-                  <div class="lead-paragraph mb-4 p-4 bg-white rounded-3 shadow-sm"
-                    style="border-left: 4px solid #ff7a00">
-                    <p class="fs-5">
-                      <span class="fw-bold" style="color: #ff7a00">YACOUBA DIABY</span>, jeune ivoirien de la Diaspora
-                      Allemande qui, inspiré
-                      par la politique d'investissement et le climat de paix
-                      et de confiance instauré par le Président de la
-                      République de Côte d'Ivoire, SEM Alassane OUATTARA, a
-                      entrepris de mettre sur pied un Conglomérat
-                      d'Entreprises dont il est le Manager Général et qui
-                      revendique à ce jour plus de
-                      <span class="fw-bold">5,6 Milliards CA</span>.
+            <!-- Biographie -->
+            <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+              <div class="ps-lg-5">
+                <h2 class="mb-4" style="color: #ff7a00">
+                  BIOGRAPHIE YACOUBA DIABY
+                </h2>
+
+                <div class="biographie-content">
+                  <p class="lead fw-bold">M. YACOUBA DIABY</p>
+
+                  <ul
+                    class="list-unstyled bio-titles"
+                    style="text-align: justify"
+                  >
+                    <li class="mb-2">
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Manager Général du Conglomérat d’Entreprises qu’il a
+                      fondé, avec un chiffre d’affaires de plus de 5,6 milliards
+                      FCFA.
+                    </li>
+                    <li class="mb-2">
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Précurseur en Côte d’Ivoire dans les domaines du BTP/Génie
+                      civil et des Systèmes d’Information.
+                    </li>
+                    <li class="mb-2">
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Ancien cadre de plusieurs sociétés de renom en Europe et
+                      en Afrique.
+                    </li>
+                    <li class="mb-2">
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Fondateur de la société DIGITAL DATA CAPTURE SOLUTION
+                      (DDCS), partenaire de référence en technologies
+                      numériques.
+                    </li>
+                    <li class="mb-2">
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Investisseur dans les secteurs du transport, de la
+                      logistique et de l’automobile.
+                    </li>
+                    <li>
+                      <i
+                        class="fas fa-circle text-orange me-2"
+                        style="font-size: 8px"
+                      ></i>
+                      Encadre une équipe de techniciens et de consultants
+                      expérimentés pour soutenir le développement industriel en
+                      Côte d’Ivoire et dans la sous-région.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Présentation Fondateur Section -->
+        <section id="presentation" class="presentation section bg-light">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-10">
+                <!-- En-tête -->
+                <div class="section-header text-center mb-5" data-aos="fade-up">
+                  <h1
+                    class="display-4 fw-bold"
+                    style="color: #ff7a00; font-size: 1.2rem"
+                  >
+                    PRÉSENTATION DU FONDATEUR
+                  </h1>
+                  <div
+                    class="divider mx-auto"
+                    style="background-color: #ff7a00; height: 3px; width: 100px"
+                  ></div>
+                </div>
+
+                <!-- Contenu en deux colonnes -->
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  <!-- Colonne 1 (3 premiers blocs) -->
+                  <div class="col-lg-6 pe-lg-4" style="text-align: justify">
+                    <!-- Premier paragraphe avec mise en valeur -->
+                    <div
+                      class="lead-paragraph mb-4 p-4 bg-white rounded-3 shadow-sm"
+                      style="border-left: 4px solid #ff7a00"
+                    >
+                      <p class="fs-5">
+                        <span class="fw-bold" style="color: #ff7a00"
+                          >YACOUBA DIABY</span
+                        >, jeune ivoirien de la Diaspora Allemande qui, inspiré
+                        par la politique d'investissement et le climat de paix
+                        et de confiance instauré par le Président de la
+                        République de Côte d'Ivoire, SEM Alassane OUATTARA, a
+                        entrepris de mettre sur pied un Conglomérat
+                        d'Entreprises dont il est le Manager Général et qui
+                        revendique à ce jour plus de
+                        <span class="fw-bold">5,6 Milliards CA</span>.
+                      </p>
+                    </div>
+
+                    <!-- Paragraphe 2 -->
+                    <p class="mb-4">
+                      Ayant exercé pendant plusieurs années dans diverses
+                      Sociétés de renoms, YACOUBA DIABY fait partie des
+                      précurseurs de plusieurs technologies en Côte d'Ivoire
+                      dans divers domaines dont celui des BTP/Génie Civil et des
+                      Systèmes d'Information (SI). Toutefois, en homme
+                      polyvalent et averti, YACOUBA DIABY investira aussi dans
+                      plusieurs autres secteurs d'activités, en l'occurrence le
+                      secteur de l'Automobile à travers un Pôle logistique de
+                      transport de matières premières de béton prêt à l'emploi.
+                      Il s'entoure à cet effet de collaborateurs expérimentés en
+                      recrutant des techniciens chevronnés qu'il encadre avec
+                      l'aide de Consultants expérimentés afin de révolutionner
+                      lesdits secteurs en Côte d'Ivoire et dans la sous-région.
                     </p>
-                  </div>
 
-                  <!-- Paragraphe 2 -->
-                  <p class="mb-4">
-                    Ayant exercé pendant plusieurs années dans diverses
-                    Sociétés de renoms, YACOUBA DIABY fait partie des
-                    précurseurs de plusieurs technologies en Côte d'Ivoire
-                    dans divers domaines dont celui des BTP/Génie Civil et des
-                    Systèmes d'Information (SI). Toutefois, en homme
-                    polyvalent et averti, YACOUBA DIABY investira aussi dans
-                    plusieurs autres secteurs d'activités, en l'occurrence le
-                    secteur de l'Automobile à travers un Pôle logistique de
-                    transport de matières premières de béton prêt à l'emploi.
-                    Il s'entoure à cet effet de collaborateurs expérimentés en
-                    recrutant des techniciens chevronnés qu'il encadre avec
-                    l'aide de Consultants expérimentés afin de révolutionner
-                    lesdits secteurs en Côte d'Ivoire et dans la sous-région.
-                  </p>
-
-                  <!-- Paragraphe 3 avec entreprise en évidence -->
-                  <div class="company-highlight mb-4 p-3 rounded-2" style="
+                    <!-- Paragraphe 3 avec entreprise en évidence -->
+                    <div
+                      class="company-highlight mb-4 p-3 rounded-2"
+                      style="
                         background-color: rgba(255, 122, 0, 0.05);
                         border-left: 3px solid #ff7a00;
-                      ">
-                    <p class="mb-0">
-                      Ainsi, partant de sa première Entreprise
-                      <span class="fw-bold" style="color: #ff7a00">DIGITAL DATA CAPTURE SOLUTION (DDCS)</span>,
-                      Partenaire de référence dans le domaine de la
-                      Communication Unifiée, Représentante exclusive du Label
-                      LIFESIZE, et pionnière de la Visioconférence Haute
-                      Définition, d'autres Entreprises verront le jour.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Colonne 2 (2 derniers blocs) -->
-                <div class="col-lg-6 ps-lg-4" style="text-align: justify">
-                  <!-- Liste des entreprises -->
-                  <div class="entreprise-list mb-4">
-                    <div class="entreprise-item d-flex mb-3">
-                      <div class="entreprise-bullet me-3" style="color: #ff7a00">
-                        •
-                      </div>
-                      <div>
-                        <p class="mb-1 fw-bold" style="color: #ff7a00">
-                          YDIA CONSTRUCTION
-                        </p>
-                        <p class="mb-0">
-                          Entreprise spécialisée dans les BTP/Génie Civil, par
-                          ailleurs Représentante exclusive du Groupe Turque
-                          ENEZCAM pour la Sous-région Ouest-Africaine en
-                          matière des produits dérivés de Menuiserie Aluminium
-                          (tous types de systèmes en aluminium, systèmes en
-                          verre, systèmes de portes, systèmes de volets,
-                          systèmes métal-fer, etc.).
-                        </p>
-                      </div>
-                    </div>
-
-                    <div class="entreprise-item d-flex mb-3">
-                      <div class="entreprise-bullet me-3" style="color: #ff7a00">
-                        •
-                      </div>
-                      <div>
-                        <p class="mb-1 fw-bold" style="color: #ff7a00">
-                          YADI CAR CENTER
-                        </p>
-                        <p class="mb-0">
-                          Qui excelle aujourd'hui dans la Mécanique Générale
-                          via son réseau de garage automobile, dans
-                          l'entretien et la réparation de véhicules de toutes
-                          marques et dans l'installation de Quick Service au
-                          profit de grandes Groupes telles que ORANGE CI et
-                          AFG.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div class="entreprise-item d-flex">
-                      <div class="entreprise-bullet me-3" style="color: #ff7a00">
-                        •
-                      </div>
-                      <div>
-                        <p class="mb-1 fw-bold" style="color: #ff7a00">
-                          VROOM
-                        </p>
-                        <p class="mb-0">
-                          Dont le périmètre d'activités couvre les secteurs de
-                          la logistique et du Transport grand public et privé.
-                        </p>
-                      </div>
+                      "
+                    >
+                      <p class="mb-0">
+                        Ainsi, partant de sa première Entreprise
+                        <span class="fw-bold" style="color: #ff7a00"
+                          >DIGITAL DATA CAPTURE SOLUTION (DDCS)</span
+                        >, Partenaire de référence dans le domaine de la
+                        Communication Unifiée, Représentante exclusive du Label
+                        LIFESIZE, et pionnière de la Visioconférence Haute
+                        Définition, d'autres Entreprises verront le jour.
+                      </p>
                     </div>
                   </div>
 
-                  <!-- Paragraphe final -->
-                  <div class="closing-paragraph p-3 rounded-2" style="
+                  <!-- Colonne 2 (2 derniers blocs) -->
+                  <div class="col-lg-6 ps-lg-4" style="text-align: justify">
+                    <!-- Liste des entreprises -->
+                    <div class="entreprise-list mb-4">
+                      <div class="entreprise-item d-flex mb-3">
+                        <div
+                          class="entreprise-bullet me-3"
+                          style="color: #ff7a00"
+                        >
+                          •
+                        </div>
+                        <div>
+                          <p class="mb-1 fw-bold" style="color: #ff7a00">
+                            YDIA CONSTRUCTION
+                          </p>
+                          <p class="mb-0">
+                            Entreprise spécialisée dans les BTP/Génie Civil, par
+                            ailleurs Représentante exclusive du Groupe Turque
+                            ENEZCAM pour la Sous-région Ouest-Africaine en
+                            matière des produits dérivés de Menuiserie Aluminium
+                            (tous types de systèmes en aluminium, systèmes en
+                            verre, systèmes de portes, systèmes de volets,
+                            systèmes métal-fer, etc.).
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="entreprise-item d-flex mb-3">
+                        <div
+                          class="entreprise-bullet me-3"
+                          style="color: #ff7a00"
+                        >
+                          •
+                        </div>
+                        <div>
+                          <p class="mb-1 fw-bold" style="color: #ff7a00">
+                            YADI CAR CENTER
+                          </p>
+                          <p class="mb-0">
+                            Qui excelle aujourd'hui dans la Mécanique Générale
+                            via son réseau de garage automobile, dans
+                            l'entretien et la réparation de véhicules de toutes
+                            marques et dans l'installation de Quick Service au
+                            profit de grandes Groupes telles que ORANGE CI et
+                            AFG.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="entreprise-item d-flex">
+                        <div
+                          class="entreprise-bullet me-3"
+                          style="color: #ff7a00"
+                        >
+                          •
+                        </div>
+                        <div>
+                          <p class="mb-1 fw-bold" style="color: #ff7a00">
+                            VROOM
+                          </p>
+                          <p class="mb-0">
+                            Dont le périmètre d'activités couvre les secteurs de
+                            la logistique et du Transport grand public et privé.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Paragraphe final -->
+                    <div
+                      class="closing-paragraph p-3 rounded-2"
+                      style="
                         background-color: #f8f9fa;
                         border-top: 2px solid #ff7a00;
-                      ">
-                    <p class="mb-0">
-                      Ce conglomérat qui tend à s'étendre avec d'autres
-                      Entreprises en cours de création dans des domaines à
-                      forte valeur ajoutée pour l'économie ivoirienne traduit
-                      la volonté de YACOUBA DIABY et celle de son équipe à
-                      poursuivre les efforts pour l'émergence de la Côte
-                      d'Ivoire. Sa particularité réside dans son caractère
-                      familial mais très strict, qui met l'aspect Humain au
-                      cœur de ses priorités et sur un principe de choix fondé
-                      sur les valeurs de
-                      <span class="fw-bold">Responsabilité – Ethique – Qualité</span>.
-                    </p>
+                      "
+                    >
+                      <p class="mb-0">
+                        Ce conglomérat qui tend à s'étendre avec d'autres
+                        Entreprises en cours de création dans des domaines à
+                        forte valeur ajoutée pour l'économie ivoirienne traduit
+                        la volonté de YACOUBA DIABY et celle de son équipe à
+                        poursuivre les efforts pour l'émergence de la Côte
+                        d'Ivoire. Sa particularité réside dans son caractère
+                        familial mais très strict, qui met l'aspect Humain au
+                        cœur de ses priorités et sur un principe de choix fondé
+                        sur les valeurs de
+                        <span class="fw-bold"
+                          >Responsabilité – Ethique – Qualité</span
+                        >.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- /About Section -->
+
+      <!-- Stats Section -->
+      <section id="stats" class="stats section light-background">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="232"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                    id="happy-clients-counter"
+                  ></span>
+                  <p>Clients satisfaits</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i
+                  class="bi bi-journal-richtext color-orange flex-shrink-0"
+                ></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="521"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                    id="projects-counter"
+                  ></span>
+                  <p>Projets</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-headset color-green flex-shrink-0"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="1463"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                  ></span>
+                  <p>Heures d'assistance</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <i class="bi bi-people color-pink flex-shrink-0"></i>
+                <div>
+                  <span
+                    data-purecounter-start="0"
+                    data-purecounter-end="100"
+                    data-purecounter-duration="1"
+                    class="purecounter"
+                    id="hardworkers-counter"
+                  ></span>
+                  <p>Travailleurs acharnés</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+          </div>
+        </div>
+      </section>
+
+      <section class="rts-company-storyhear" id="filiales-section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Filiales</h2>
+          <p>Nos Filiales<br /></p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <section class="timeline">
+                <ul>
+                  <li class="item first" style="text-align: center;">
+                    <div>
+                      <section>
+                        <a href="https//www.ddcs.ci" target="_blank">
+                          <img
+                            class="mb--30"
+                            src="assets/img/ddcs.png"
+                            alt="story"
+                          />
+                        </a>
+
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="44"
+                          height="45"
+                          viewBox="0 0 44 45"
+                          fill="none"
+                        >
+                          <path
+                            d="M31.1324 19.2783C29.441 17.5628 27.149 16.5994 24.7594 16.5994C22.3699 16.5994 20.0779 17.5628 18.3865 19.2783C12.7128 25.0193 16.8433 34.9642 24.7596 34.9101C32.6757 34.9641 36.8057 25.018 31.1324 19.2783ZM30.0703 31.1526C28.6605 32.5818 26.7506 33.3843 24.7594 33.3843C22.7682 33.3843 20.8583 32.5818 19.4485 31.1526C14.7154 26.4079 18.1867 18.0487 24.7595 18.126C31.332 18.0489 34.8045 26.4091 30.0703 31.1526Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M37.4296 34.3137C37.7672 33.7328 37.9056 33.0545 37.8232 32.3851C37.7408 31.7157 37.4423 31.0929 36.9743 30.6144L36.1054 29.7309C38.6854 22.5908 33.6067 14.2302 25.9538 13.6017C24.9292 11.9989 23.528 10.6806 21.8767 9.76582C20.2254 8.85104 18.376 8.36856 16.4953 8.36191C7.56838 8.24805 2.05855 18.8701 7.20086 26.2808C9.74868 30.0613 10.6519 32.0218 10.6519 33.772C10.7241 35.1866 9.72926 37.2684 9.73582 38.8936C9.73633 39.7537 9.91551 40.604 10.2616 41.3889C10.6078 42.1738 11.113 42.8755 11.7444 43.4483C12.3758 44.021 13.119 44.4518 13.9255 44.7125C14.732 44.9732 15.5835 45.058 16.4245 44.9612C17.2654 44.8644 18.0767 44.5883 18.8054 44.1508C19.5341 43.7134 20.1637 43.1246 20.6531 42.4229C21.1424 41.7211 21.4805 40.9223 21.6451 40.0786C21.8098 39.235 21.7973 38.3655 21.6085 37.5271C23.932 38.176 26.3947 38.0922 28.6703 37.2866L29.5379 38.1684C30.0087 38.6447 30.6219 38.9486 31.2812 39.0322C31.9404 39.1158 32.6084 38.9744 33.1799 38.6303L38.5674 44.1055C39.1324 44.6696 39.8938 44.9841 40.6859 44.9805C41.4779 44.9769 42.2366 44.6556 42.7966 44.0863C43.3567 43.5171 43.6729 42.7461 43.6764 41.9412C43.68 41.1362 43.3705 40.3624 42.8154 39.7881L37.4296 34.3137ZM20.1233 37.7636C21.3462 44.5002 11.6422 45.7053 11.2379 38.8936C11.3232 37.1987 12.2381 35.3321 12.1539 33.7719C12.154 31.6729 11.1822 29.4866 8.44021 25.4182C1.75487 14.7242 15.9133 4.00421 24.0847 13.5759C11.4505 14.4591 8.43695 31.6729 19.9675 36.943C20.0163 37.2062 20.0675 37.476 20.1233 37.7636ZM17.3241 33.3113C15.3569 31.3063 14.2531 28.5897 14.2551 25.7582C14.2571 22.9267 15.3648 20.2117 17.3349 18.2096C19.305 16.2074 21.9764 15.0818 24.7625 15.0798C27.5486 15.0779 30.2216 16.1998 32.1944 18.1991C41.6479 28.637 27.5946 42.9195 17.3241 33.3113ZM30.5977 37.0868L30.1696 36.6517C32.4635 35.478 34.3254 33.5859 35.4805 31.2547L35.9122 31.6938C36.193 31.9801 36.3507 32.3678 36.3507 32.772C36.3507 33.1762 36.193 33.5639 35.9122 33.8502L32.7276 37.0868C32.4441 37.3719 32.0615 37.5318 31.6626 37.5318C31.2638 37.5318 30.8812 37.3719 30.5977 37.0868ZM41.7534 43.0261C41.4674 43.3039 41.087 43.4589 40.6914 43.4589C40.2958 43.4589 39.9154 43.3039 39.6294 43.0261L34.3185 37.6287L36.4433 35.47L41.7534 40.8675C42.0335 41.1546 42.1906 41.5425 42.1906 41.9468C42.1906 42.3511 42.0335 42.739 41.7534 43.0261Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M24.7594 9.12521C25.9542 9.12388 27.0996 8.64095 27.9444 7.78236C28.7892 6.92378 29.2644 5.75967 29.2657 4.54545C29.0543 -1.51594 20.4637 -1.51438 20.2531 4.54553C20.2544 5.75974 20.7296 6.92383 21.5745 7.7824C22.4193 8.64096 23.5647 9.12389 24.7594 9.12521ZM24.7594 1.49228C25.5515 1.49949 26.3088 1.82434 26.8664 2.39615C27.424 2.96795 27.7369 3.74043 27.7368 4.54549C27.7368 5.35054 27.424 6.12301 26.8664 6.6948C26.3087 7.2666 25.5515 7.59143 24.7594 7.59862C23.9673 7.59141 23.21 7.26656 22.6524 6.69476C22.0948 6.12295 21.7819 5.35047 21.7819 4.54542C21.782 3.74036 22.0948 2.96789 22.6524 2.3961C23.2101 1.82431 23.9673 1.49947 24.7594 1.49228Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M16.1223 6.83533C16.9145 6.82812 17.6717 6.50327 18.2293 5.93146C18.7869 5.35966 19.0998 4.58718 19.0998 3.78212C19.0998 2.97707 18.7869 2.2046 18.2293 1.63281C17.6717 1.06101 16.9144 0.736178 16.1223 0.728987C15.3302 0.736196 14.5729 1.06105 14.0153 1.63285C13.4577 2.20466 13.1449 2.97714 13.1449 3.78219C13.1449 4.58725 13.4577 5.35972 14.0154 5.93151C14.573 6.5033 15.3302 6.82814 16.1223 6.83533ZM16.1223 2.25557C16.5178 2.26016 16.8955 2.42302 17.1735 2.70882C17.4515 2.99461 17.6074 3.38029 17.6074 3.78218C17.6074 4.18407 17.4515 4.56974 17.1734 4.85553C16.8954 5.14132 16.5177 5.30417 16.1223 5.30874C15.7269 5.30416 15.3492 5.1413 15.0712 4.8555C14.7932 4.5697 14.6372 4.18402 14.6373 3.78214C14.6373 3.38025 14.7932 2.99457 15.0712 2.70878C15.3492 2.423 15.7269 2.26015 16.1223 2.25557Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M9.73841 9.12521C10.5305 9.118 11.2878 8.79315 11.8454 8.22134C12.403 7.64954 12.7158 6.87706 12.7158 6.072C12.7158 5.26695 12.403 4.49448 11.8453 3.92268C11.2877 3.35089 10.5305 3.02606 9.73835 3.01887C8.94624 3.02608 8.18898 3.35093 7.63137 3.92273C7.07376 4.49454 6.76092 5.26702 6.76093 6.07207C6.76093 6.87712 7.07379 7.6496 7.63142 8.22139C8.18904 8.79318 8.9463 9.11802 9.73841 9.12521ZM9.73841 4.54545C10.1338 4.55004 10.5115 4.7129 10.7895 4.9987C11.0675 5.28449 11.2235 5.67017 11.2235 6.07206C11.2235 6.47395 11.0675 6.85962 10.7895 7.14541C10.5115 7.4312 10.1338 7.59405 9.73837 7.59862C9.34295 7.59403 8.96526 7.43118 8.68725 7.14538C8.40923 6.85958 8.25331 6.4739 8.25332 6.07201C8.25332 5.67013 8.40926 5.28445 8.68728 4.99866C8.9653 4.71288 9.343 4.55003 9.73841 4.54545Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M7.10973 9.8885C7.10353 9.18411 6.82384 8.51071 6.33153 8.01485C5.83923 7.51898 5.17415 7.24079 4.48102 7.24079C3.7879 7.2408 3.12283 7.51901 2.63053 8.01489C2.13824 8.51076 1.85857 9.18417 1.85238 9.88856C1.85858 10.593 2.13827 11.2664 2.63058 11.7622C3.12288 12.2581 3.78796 12.5363 4.48108 12.5363C5.17421 12.5363 5.83928 12.258 6.33157 11.7622C6.82387 11.2663 7.10354 10.5929 7.10973 9.8885ZM4.48105 11.0334C4.18512 11.029 3.90277 10.9065 3.69503 10.6922C3.48728 10.478 3.37083 10.1893 3.37084 9.88847C3.37085 9.58768 3.48731 9.29897 3.69506 9.08474C3.90281 8.8705 4.18517 8.74795 4.48111 8.74356C4.77704 8.74796 5.05939 8.87053 5.26713 9.08477C5.47488 9.29902 5.59133 9.58773 5.59132 9.88853C5.59131 10.1893 5.47485 10.478 5.2671 10.6923C5.05935 10.9065 4.77699 11.0291 4.48105 11.0334Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M2.2279 12.9417C1.63472 12.9485 1.06811 13.1927 0.651011 13.6214C0.233915 14.0501 -8.89803e-06 14.6287 2.53763e-10 15.2316C8.89853e-06 15.8345 0.23395 16.413 0.651058 16.8417C1.06817 17.2704 1.63479 17.5147 2.22797 17.5214C2.82115 17.5146 3.38777 17.2704 3.80486 16.8417C4.22196 16.413 4.45588 15.8344 4.45587 15.2315C4.45586 14.6286 4.22192 14.0501 3.80482 13.6214C3.38771 13.1927 2.82108 12.9484 2.2279 12.9417ZM2.2279 15.9948C2.03064 15.9919 1.84245 15.9101 1.70399 15.7673C1.56553 15.6245 1.48791 15.432 1.48791 15.2316C1.48791 15.0311 1.56553 14.8386 1.70399 14.6958C1.84245 14.553 2.03064 14.4712 2.2279 14.4683C2.42516 14.4712 2.61336 14.553 2.75182 14.6958C2.89028 14.8386 2.9679 15.0311 2.9679 15.2316C2.9679 15.432 2.89028 15.6245 2.75182 15.7673C2.61336 15.9101 2.42516 15.9919 2.2279 15.9948Z"
+                            fill="#0C0A0A"
+                          />
+                        </svg>
+                        <span class="time">2017</span>
+                        <a href="https//www.ddcs.ci" target="_blank">
+                          <h6 class="title">Digital Data Capture Solutions</h6>
+                        </a>
+                        <p>
+                          Partenaire de référence dans le domaine de la
+                          Communication Unifiée, Représentante exclusive du
+                          Label LIFESIZE, et pionnière de la Visioconférence
+                          Haute Définition
+                        </p>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <section>
+                        <a href="https//www.yadi.ci" target="_blank">
+                          <img
+                            class="mb--30"
+                            src="assets/img/yadicar.png"
+                            alt="story"
+                          />
+                        </a>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="44"
+                          height="45"
+                          viewBox="0 0 44 45"
+                          fill="none"
+                        >
+                          <path
+                            d="M31.1324 19.2783C29.441 17.5628 27.149 16.5994 24.7594 16.5994C22.3699 16.5994 20.0779 17.5628 18.3865 19.2783C12.7128 25.0193 16.8433 34.9642 24.7596 34.9101C32.6757 34.9641 36.8057 25.018 31.1324 19.2783ZM30.0703 31.1526C28.6605 32.5818 26.7506 33.3843 24.7594 33.3843C22.7682 33.3843 20.8583 32.5818 19.4485 31.1526C14.7154 26.4079 18.1867 18.0487 24.7595 18.126C31.332 18.0489 34.8045 26.4091 30.0703 31.1526Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M37.4296 34.3137C37.7672 33.7328 37.9056 33.0545 37.8232 32.3851C37.7408 31.7157 37.4423 31.0929 36.9743 30.6144L36.1054 29.7309C38.6854 22.5908 33.6067 14.2302 25.9538 13.6017C24.9292 11.9989 23.528 10.6806 21.8767 9.76582C20.2254 8.85104 18.376 8.36856 16.4953 8.36191C7.56838 8.24805 2.05855 18.8701 7.20086 26.2808C9.74868 30.0613 10.6519 32.0218 10.6519 33.772C10.7241 35.1866 9.72926 37.2684 9.73582 38.8936C9.73633 39.7537 9.91551 40.604 10.2616 41.3889C10.6078 42.1738 11.113 42.8755 11.7444 43.4483C12.3758 44.021 13.119 44.4518 13.9255 44.7125C14.732 44.9732 15.5835 45.058 16.4245 44.9612C17.2654 44.8644 18.0767 44.5883 18.8054 44.1508C19.5341 43.7134 20.1637 43.1246 20.6531 42.4229C21.1424 41.7211 21.4805 40.9223 21.6451 40.0786C21.8098 39.235 21.7973 38.3655 21.6085 37.5271C23.932 38.176 26.3947 38.0922 28.6703 37.2866L29.5379 38.1684C30.0087 38.6447 30.6219 38.9486 31.2812 39.0322C31.9404 39.1158 32.6084 38.9744 33.1799 38.6303L38.5674 44.1055C39.1324 44.6696 39.8938 44.9841 40.6859 44.9805C41.4779 44.9769 42.2366 44.6556 42.7966 44.0863C43.3567 43.5171 43.6729 42.7461 43.6764 41.9412C43.68 41.1362 43.3705 40.3624 42.8154 39.7881L37.4296 34.3137ZM20.1233 37.7636C21.3462 44.5002 11.6422 45.7053 11.2379 38.8936C11.3232 37.1987 12.2381 35.3321 12.1539 33.7719C12.154 31.6729 11.1822 29.4866 8.44021 25.4182C1.75487 14.7242 15.9133 4.00421 24.0847 13.5759C11.4505 14.4591 8.43695 31.6729 19.9675 36.943C20.0163 37.2062 20.0675 37.476 20.1233 37.7636ZM17.3241 33.3113C15.3569 31.3063 14.2531 28.5897 14.2551 25.7582C14.2571 22.9267 15.3648 20.2117 17.3349 18.2096C19.305 16.2074 21.9764 15.0818 24.7625 15.0798C27.5486 15.0779 30.2216 16.1998 32.1944 18.1991C41.6479 28.637 27.5946 42.9195 17.3241 33.3113ZM30.5977 37.0868L30.1696 36.6517C32.4635 35.478 34.3254 33.5859 35.4805 31.2547L35.9122 31.6938C36.193 31.9801 36.3507 32.3678 36.3507 32.772C36.3507 33.1762 36.193 33.5639 35.9122 33.8502L32.7276 37.0868C32.4441 37.3719 32.0615 37.5318 31.6626 37.5318C31.2638 37.5318 30.8812 37.3719 30.5977 37.0868ZM41.7534 43.0261C41.4674 43.3039 41.087 43.4589 40.6914 43.4589C40.2958 43.4589 39.9154 43.3039 39.6294 43.0261L34.3185 37.6287L36.4433 35.47L41.7534 40.8675C42.0335 41.1546 42.1906 41.5425 42.1906 41.9468C42.1906 42.3511 42.0335 42.739 41.7534 43.0261Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M24.7594 9.12521C25.9542 9.12388 27.0996 8.64095 27.9444 7.78236C28.7892 6.92378 29.2644 5.75967 29.2657 4.54545C29.0543 -1.51594 20.4637 -1.51438 20.2531 4.54553C20.2544 5.75974 20.7296 6.92383 21.5745 7.7824C22.4193 8.64096 23.5647 9.12389 24.7594 9.12521ZM24.7594 1.49228C25.5515 1.49949 26.3088 1.82434 26.8664 2.39615C27.424 2.96795 27.7369 3.74043 27.7368 4.54549C27.7368 5.35054 27.424 6.12301 26.8664 6.6948C26.3087 7.2666 25.5515 7.59143 24.7594 7.59862C23.9673 7.59141 23.21 7.26656 22.6524 6.69476C22.0948 6.12295 21.7819 5.35047 21.7819 4.54542C21.782 3.74036 22.0948 2.96789 22.6524 2.3961C23.2101 1.82431 23.9673 1.49947 24.7594 1.49228Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M16.1223 6.83533C16.9145 6.82812 17.6717 6.50327 18.2293 5.93146C18.7869 5.35966 19.0998 4.58718 19.0998 3.78212C19.0998 2.97707 18.7869 2.2046 18.2293 1.63281C17.6717 1.06101 16.9144 0.736178 16.1223 0.728987C15.3302 0.736196 14.5729 1.06105 14.0153 1.63285C13.4577 2.20466 13.1449 2.97714 13.1449 3.78219C13.1449 4.58725 13.4577 5.35972 14.0154 5.93151C14.573 6.5033 15.3302 6.82814 16.1223 6.83533ZM16.1223 2.25557C16.5178 2.26016 16.8955 2.42302 17.1735 2.70882C17.4515 2.99461 17.6074 3.38029 17.6074 3.78218C17.6074 4.18407 17.4515 4.56974 17.1734 4.85553C16.8954 5.14132 16.5177 5.30417 16.1223 5.30874C15.7269 5.30416 15.3492 5.1413 15.0712 4.8555C14.7932 4.5697 14.6372 4.18402 14.6373 3.78214C14.6373 3.38025 14.7932 2.99457 15.0712 2.70878C15.3492 2.423 15.7269 2.26015 16.1223 2.25557Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M9.73841 9.12521C10.5305 9.118 11.2878 8.79315 11.8454 8.22134C12.403 7.64954 12.7158 6.87706 12.7158 6.072C12.7158 5.26695 12.403 4.49448 11.8453 3.92268C11.2877 3.35089 10.5305 3.02606 9.73835 3.01887C8.94624 3.02608 8.18898 3.35093 7.63137 3.92273C7.07376 4.49454 6.76092 5.26702 6.76093 6.07207C6.76093 6.87712 7.07379 7.6496 7.63142 8.22139C8.18904 8.79318 8.9463 9.11802 9.73841 9.12521ZM9.73841 4.54545C10.1338 4.55004 10.5115 4.7129 10.7895 4.9987C11.0675 5.28449 11.2235 5.67017 11.2235 6.07206C11.2235 6.47395 11.0675 6.85962 10.7895 7.14541C10.5115 7.4312 10.1338 7.59405 9.73837 7.59862C9.34295 7.59403 8.96526 7.43118 8.68725 7.14538C8.40923 6.85958 8.25331 6.4739 8.25332 6.07201C8.25332 5.67013 8.40926 5.28445 8.68728 4.99866C8.9653 4.71288 9.343 4.55003 9.73841 4.54545Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M7.10973 9.8885C7.10353 9.18411 6.82384 8.51071 6.33153 8.01485C5.83923 7.51898 5.17415 7.24079 4.48102 7.24079C3.7879 7.2408 3.12283 7.51901 2.63053 8.01489C2.13824 8.51076 1.85857 9.18417 1.85238 9.88856C1.85858 10.593 2.13827 11.2664 2.63058 11.7622C3.12288 12.2581 3.78796 12.5363 4.48108 12.5363C5.17421 12.5363 5.83928 12.258 6.33157 11.7622C6.82387 11.2663 7.10354 10.5929 7.10973 9.8885ZM4.48105 11.0334C4.18512 11.029 3.90277 10.9065 3.69503 10.6922C3.48728 10.478 3.37083 10.1893 3.37084 9.88847C3.37085 9.58768 3.48731 9.29897 3.69506 9.08474C3.90281 8.8705 4.18517 8.74795 4.48111 8.74356C4.77704 8.74796 5.05939 8.87053 5.26713 9.08477C5.47488 9.29902 5.59133 9.58773 5.59132 9.88853C5.59131 10.1893 5.47485 10.478 5.2671 10.6923C5.05935 10.9065 4.77699 11.0291 4.48105 11.0334Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M2.2279 12.9417C1.63472 12.9485 1.06811 13.1927 0.651011 13.6214C0.233915 14.0501 -8.89803e-06 14.6287 2.53763e-10 15.2316C8.89853e-06 15.8345 0.23395 16.413 0.651058 16.8417C1.06817 17.2704 1.63479 17.5147 2.22797 17.5214C2.82115 17.5146 3.38777 17.2704 3.80486 16.8417C4.22196 16.413 4.45588 15.8344 4.45587 15.2315C4.45586 14.6286 4.22192 14.0501 3.80482 13.6214C3.38771 13.1927 2.82108 12.9484 2.2279 12.9417ZM2.2279 15.9948C2.03064 15.9919 1.84245 15.9101 1.70399 15.7673C1.56553 15.6245 1.48791 15.432 1.48791 15.2316C1.48791 15.0311 1.56553 14.8386 1.70399 14.6958C1.84245 14.553 2.03064 14.4712 2.2279 14.4683C2.42516 14.4712 2.61336 14.553 2.75182 14.6958C2.89028 14.8386 2.9679 15.0311 2.9679 15.2316C2.9679 15.432 2.89028 15.6245 2.75182 15.7673C2.61336 15.9101 2.42516 15.9919 2.2279 15.9948Z"
+                            fill="#0C0A0A"
+                          />
+                        </svg>
+                        <span class="time">2019</span>
+                        <a href="https//www.yadi.ci" target="_blank">
+                          <h6 class="title">Yadi Car Center</h6>
+                        </a>
+                        <p>
+                          excelle aujourd’hui dans la Mécanique Générale via son
+                          réseau de garage automobile, dans l’entretien et la
+                          réparation de véhicules de toutes marques et dans
+                          l’installation de Quick Service au profit de grandes
+                          Groupes telles que ORANGE CI et AFG
+                        </p>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <section>
+                        <a href="https//www.yadi.ci" target="_blank">
+                          <img
+                            class="mb--30"
+                            src="assets/img/vroom.png"
+                            alt="story"
+                          />
+                        </a>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="44"
+                          height="45"
+                          viewBox="0 0 44 45"
+                          fill="none"
+                        >
+                          <path
+                            d="M31.1324 19.2783C29.441 17.5628 27.149 16.5994 24.7594 16.5994C22.3699 16.5994 20.0779 17.5628 18.3865 19.2783C12.7128 25.0193 16.8433 34.9642 24.7596 34.9101C32.6757 34.9641 36.8057 25.018 31.1324 19.2783ZM30.0703 31.1526C28.6605 32.5818 26.7506 33.3843 24.7594 33.3843C22.7682 33.3843 20.8583 32.5818 19.4485 31.1526C14.7154 26.4079 18.1867 18.0487 24.7595 18.126C31.332 18.0489 34.8045 26.4091 30.0703 31.1526Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M37.4296 34.3137C37.7672 33.7328 37.9056 33.0545 37.8232 32.3851C37.7408 31.7157 37.4423 31.0929 36.9743 30.6144L36.1054 29.7309C38.6854 22.5908 33.6067 14.2302 25.9538 13.6017C24.9292 11.9989 23.528 10.6806 21.8767 9.76582C20.2254 8.85104 18.376 8.36856 16.4953 8.36191C7.56838 8.24805 2.05855 18.8701 7.20086 26.2808C9.74868 30.0613 10.6519 32.0218 10.6519 33.772C10.7241 35.1866 9.72926 37.2684 9.73582 38.8936C9.73633 39.7537 9.91551 40.604 10.2616 41.3889C10.6078 42.1738 11.113 42.8755 11.7444 43.4483C12.3758 44.021 13.119 44.4518 13.9255 44.7125C14.732 44.9732 15.5835 45.058 16.4245 44.9612C17.2654 44.8644 18.0767 44.5883 18.8054 44.1508C19.5341 43.7134 20.1637 43.1246 20.6531 42.4229C21.1424 41.7211 21.4805 40.9223 21.6451 40.0786C21.8098 39.235 21.7973 38.3655 21.6085 37.5271C23.932 38.176 26.3947 38.0922 28.6703 37.2866L29.5379 38.1684C30.0087 38.6447 30.6219 38.9486 31.2812 39.0322C31.9404 39.1158 32.6084 38.9744 33.1799 38.6303L38.5674 44.1055C39.1324 44.6696 39.8938 44.9841 40.6859 44.9805C41.4779 44.9769 42.2366 44.6556 42.7966 44.0863C43.3567 43.5171 43.6729 42.7461 43.6764 41.9412C43.68 41.1362 43.3705 40.3624 42.8154 39.7881L37.4296 34.3137ZM20.1233 37.7636C21.3462 44.5002 11.6422 45.7053 11.2379 38.8936C11.3232 37.1987 12.2381 35.3321 12.1539 33.7719C12.154 31.6729 11.1822 29.4866 8.44021 25.4182C1.75487 14.7242 15.9133 4.00421 24.0847 13.5759C11.4505 14.4591 8.43695 31.6729 19.9675 36.943C20.0163 37.2062 20.0675 37.476 20.1233 37.7636ZM17.3241 33.3113C15.3569 31.3063 14.2531 28.5897 14.2551 25.7582C14.2571 22.9267 15.3648 20.2117 17.3349 18.2096C19.305 16.2074 21.9764 15.0818 24.7625 15.0798C27.5486 15.0779 30.2216 16.1998 32.1944 18.1991C41.6479 28.637 27.5946 42.9195 17.3241 33.3113ZM30.5977 37.0868L30.1696 36.6517C32.4635 35.478 34.3254 33.5859 35.4805 31.2547L35.9122 31.6938C36.193 31.9801 36.3507 32.3678 36.3507 32.772C36.3507 33.1762 36.193 33.5639 35.9122 33.8502L32.7276 37.0868C32.4441 37.3719 32.0615 37.5318 31.6626 37.5318C31.2638 37.5318 30.8812 37.3719 30.5977 37.0868ZM41.7534 43.0261C41.4674 43.3039 41.087 43.4589 40.6914 43.4589C40.2958 43.4589 39.9154 43.3039 39.6294 43.0261L34.3185 37.6287L36.4433 35.47L41.7534 40.8675C42.0335 41.1546 42.1906 41.5425 42.1906 41.9468C42.1906 42.3511 42.0335 42.739 41.7534 43.0261Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M24.7594 9.12521C25.9542 9.12388 27.0996 8.64095 27.9444 7.78236C28.7892 6.92378 29.2644 5.75967 29.2657 4.54545C29.0543 -1.51594 20.4637 -1.51438 20.2531 4.54553C20.2544 5.75974 20.7296 6.92383 21.5745 7.7824C22.4193 8.64096 23.5647 9.12389 24.7594 9.12521ZM24.7594 1.49228C25.5515 1.49949 26.3088 1.82434 26.8664 2.39615C27.424 2.96795 27.7369 3.74043 27.7368 4.54549C27.7368 5.35054 27.424 6.12301 26.8664 6.6948C26.3087 7.2666 25.5515 7.59143 24.7594 7.59862C23.9673 7.59141 23.21 7.26656 22.6524 6.69476C22.0948 6.12295 21.7819 5.35047 21.7819 4.54542C21.782 3.74036 22.0948 2.96789 22.6524 2.3961C23.2101 1.82431 23.9673 1.49947 24.7594 1.49228Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M16.1223 6.83533C16.9145 6.82812 17.6717 6.50327 18.2293 5.93146C18.7869 5.35966 19.0998 4.58718 19.0998 3.78212C19.0998 2.97707 18.7869 2.2046 18.2293 1.63281C17.6717 1.06101 16.9144 0.736178 16.1223 0.728987C15.3302 0.736196 14.5729 1.06105 14.0153 1.63285C13.4577 2.20466 13.1449 2.97714 13.1449 3.78219C13.1449 4.58725 13.4577 5.35972 14.0154 5.93151C14.573 6.5033 15.3302 6.82814 16.1223 6.83533ZM16.1223 2.25557C16.5178 2.26016 16.8955 2.42302 17.1735 2.70882C17.4515 2.99461 17.6074 3.38029 17.6074 3.78218C17.6074 4.18407 17.4515 4.56974 17.1734 4.85553C16.8954 5.14132 16.5177 5.30417 16.1223 5.30874C15.7269 5.30416 15.3492 5.1413 15.0712 4.8555C14.7932 4.5697 14.6372 4.18402 14.6373 3.78214C14.6373 3.38025 14.7932 2.99457 15.0712 2.70878C15.3492 2.423 15.7269 2.26015 16.1223 2.25557Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M9.73841 9.12521C10.5305 9.118 11.2878 8.79315 11.8454 8.22134C12.403 7.64954 12.7158 6.87706 12.7158 6.072C12.7158 5.26695 12.403 4.49448 11.8453 3.92268C11.2877 3.35089 10.5305 3.02606 9.73835 3.01887C8.94624 3.02608 8.18898 3.35093 7.63137 3.92273C7.07376 4.49454 6.76092 5.26702 6.76093 6.07207C6.76093 6.87712 7.07379 7.6496 7.63142 8.22139C8.18904 8.79318 8.9463 9.11802 9.73841 9.12521ZM9.73841 4.54545C10.1338 4.55004 10.5115 4.7129 10.7895 4.9987C11.0675 5.28449 11.2235 5.67017 11.2235 6.07206C11.2235 6.47395 11.0675 6.85962 10.7895 7.14541C10.5115 7.4312 10.1338 7.59405 9.73837 7.59862C9.34295 7.59403 8.96526 7.43118 8.68725 7.14538C8.40923 6.85958 8.25331 6.4739 8.25332 6.07201C8.25332 5.67013 8.40926 5.28445 8.68728 4.99866C8.9653 4.71288 9.343 4.55003 9.73841 4.54545Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M7.10973 9.8885C7.10353 9.18411 6.82384 8.51071 6.33153 8.01485C5.83923 7.51898 5.17415 7.24079 4.48102 7.24079C3.7879 7.2408 3.12283 7.51901 2.63053 8.01489C2.13824 8.51076 1.85857 9.18417 1.85238 9.88856C1.85858 10.593 2.13827 11.2664 2.63058 11.7622C3.12288 12.2581 3.78796 12.5363 4.48108 12.5363C5.17421 12.5363 5.83928 12.258 6.33157 11.7622C6.82387 11.2663 7.10354 10.5929 7.10973 9.8885ZM4.48105 11.0334C4.18512 11.029 3.90277 10.9065 3.69503 10.6922C3.48728 10.478 3.37083 10.1893 3.37084 9.88847C3.37085 9.58768 3.48731 9.29897 3.69506 9.08474C3.90281 8.8705 4.18517 8.74795 4.48111 8.74356C4.77704 8.74796 5.05939 8.87053 5.26713 9.08477C5.47488 9.29902 5.59133 9.58773 5.59132 9.88853C5.59131 10.1893 5.47485 10.478 5.2671 10.6923C5.05935 10.9065 4.77699 11.0291 4.48105 11.0334Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M2.2279 12.9417C1.63472 12.9485 1.06811 13.1927 0.651011 13.6214C0.233915 14.0501 -8.89803e-06 14.6287 2.53763e-10 15.2316C8.89853e-06 15.8345 0.23395 16.413 0.651058 16.8417C1.06817 17.2704 1.63479 17.5147 2.22797 17.5214C2.82115 17.5146 3.38777 17.2704 3.80486 16.8417C4.22196 16.413 4.45588 15.8344 4.45587 15.2315C4.45586 14.6286 4.22192 14.0501 3.80482 13.6214C3.38771 13.1927 2.82108 12.9484 2.2279 12.9417ZM2.2279 15.9948C2.03064 15.9919 1.84245 15.9101 1.70399 15.7673C1.56553 15.6245 1.48791 15.432 1.48791 15.2316C1.48791 15.0311 1.56553 14.8386 1.70399 14.6958C1.84245 14.553 2.03064 14.4712 2.2279 14.4683C2.42516 14.4712 2.61336 14.553 2.75182 14.6958C2.89028 14.8386 2.9679 15.0311 2.9679 15.2316C2.9679 15.432 2.89028 15.6245 2.75182 15.7673C2.61336 15.9101 2.42516 15.9919 2.2279 15.9948Z"
+                            fill="#0C0A0A"
+                          />
+                        </svg>
+                        <span class="time">2021</span>
+                        <a href="https//www.yadi.ci" target="_blank">
+                          <h6 class="title">VROOM</h6>
+                        </a>
+                        <p>
+                          Specialisé dans les secteurs de la logistique et du
+                          Transport grand public et privé
+                        </p>
+                      </section>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div>
+                      <section>
+                        <a href="https//www.yadi.ci" target="_blank">
+                          <img
+                            class="mb--30"
+                            src="assets/img/ydia.png"
+                            alt="story"
+                          />
+                        </a>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="44"
+                          height="45"
+                          viewBox="0 0 44 45"
+                          fill="none"
+                        >
+                          <path
+                            d="M31.1324 19.2783C29.441 17.5628 27.149 16.5994 24.7594 16.5994C22.3699 16.5994 20.0779 17.5628 18.3865 19.2783C12.7128 25.0193 16.8433 34.9642 24.7596 34.9101C32.6757 34.9641 36.8057 25.018 31.1324 19.2783ZM30.0703 31.1526C28.6605 32.5818 26.7506 33.3843 24.7594 33.3843C22.7682 33.3843 20.8583 32.5818 19.4485 31.1526C14.7154 26.4079 18.1867 18.0487 24.7595 18.126C31.332 18.0489 34.8045 26.4091 30.0703 31.1526Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M37.4296 34.3137C37.7672 33.7328 37.9056 33.0545 37.8232 32.3851C37.7408 31.7157 37.4423 31.0929 36.9743 30.6144L36.1054 29.7309C38.6854 22.5908 33.6067 14.2302 25.9538 13.6017C24.9292 11.9989 23.528 10.6806 21.8767 9.76582C20.2254 8.85104 18.376 8.36856 16.4953 8.36191C7.56838 8.24805 2.05855 18.8701 7.20086 26.2808C9.74868 30.0613 10.6519 32.0218 10.6519 33.772C10.7241 35.1866 9.72926 37.2684 9.73582 38.8936C9.73633 39.7537 9.91551 40.604 10.2616 41.3889C10.6078 42.1738 11.113 42.8755 11.7444 43.4483C12.3758 44.021 13.119 44.4518 13.9255 44.7125C14.732 44.9732 15.5835 45.058 16.4245 44.9612C17.2654 44.8644 18.0767 44.5883 18.8054 44.1508C19.5341 43.7134 20.1637 43.1246 20.6531 42.4229C21.1424 41.7211 21.4805 40.9223 21.6451 40.0786C21.8098 39.235 21.7973 38.3655 21.6085 37.5271C23.932 38.176 26.3947 38.0922 28.6703 37.2866L29.5379 38.1684C30.0087 38.6447 30.6219 38.9486 31.2812 39.0322C31.9404 39.1158 32.6084 38.9744 33.1799 38.6303L38.5674 44.1055C39.1324 44.6696 39.8938 44.9841 40.6859 44.9805C41.4779 44.9769 42.2366 44.6556 42.7966 44.0863C43.3567 43.5171 43.6729 42.7461 43.6764 41.9412C43.68 41.1362 43.3705 40.3624 42.8154 39.7881L37.4296 34.3137ZM20.1233 37.7636C21.3462 44.5002 11.6422 45.7053 11.2379 38.8936C11.3232 37.1987 12.2381 35.3321 12.1539 33.7719C12.154 31.6729 11.1822 29.4866 8.44021 25.4182C1.75487 14.7242 15.9133 4.00421 24.0847 13.5759C11.4505 14.4591 8.43695 31.6729 19.9675 36.943C20.0163 37.2062 20.0675 37.476 20.1233 37.7636ZM17.3241 33.3113C15.3569 31.3063 14.2531 28.5897 14.2551 25.7582C14.2571 22.9267 15.3648 20.2117 17.3349 18.2096C19.305 16.2074 21.9764 15.0818 24.7625 15.0798C27.5486 15.0779 30.2216 16.1998 32.1944 18.1991C41.6479 28.637 27.5946 42.9195 17.3241 33.3113ZM30.5977 37.0868L30.1696 36.6517C32.4635 35.478 34.3254 33.5859 35.4805 31.2547L35.9122 31.6938C36.193 31.9801 36.3507 32.3678 36.3507 32.772C36.3507 33.1762 36.193 33.5639 35.9122 33.8502L32.7276 37.0868C32.4441 37.3719 32.0615 37.5318 31.6626 37.5318C31.2638 37.5318 30.8812 37.3719 30.5977 37.0868ZM41.7534 43.0261C41.4674 43.3039 41.087 43.4589 40.6914 43.4589C40.2958 43.4589 39.9154 43.3039 39.6294 43.0261L34.3185 37.6287L36.4433 35.47L41.7534 40.8675C42.0335 41.1546 42.1906 41.5425 42.1906 41.9468C42.1906 42.3511 42.0335 42.739 41.7534 43.0261Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M24.7594 9.12521C25.9542 9.12388 27.0996 8.64095 27.9444 7.78236C28.7892 6.92378 29.2644 5.75967 29.2657 4.54545C29.0543 -1.51594 20.4637 -1.51438 20.2531 4.54553C20.2544 5.75974 20.7296 6.92383 21.5745 7.7824C22.4193 8.64096 23.5647 9.12389 24.7594 9.12521ZM24.7594 1.49228C25.5515 1.49949 26.3088 1.82434 26.8664 2.39615C27.424 2.96795 27.7369 3.74043 27.7368 4.54549C27.7368 5.35054 27.424 6.12301 26.8664 6.6948C26.3087 7.2666 25.5515 7.59143 24.7594 7.59862C23.9673 7.59141 23.21 7.26656 22.6524 6.69476C22.0948 6.12295 21.7819 5.35047 21.7819 4.54542C21.782 3.74036 22.0948 2.96789 22.6524 2.3961C23.2101 1.82431 23.9673 1.49947 24.7594 1.49228Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M16.1223 6.83533C16.9145 6.82812 17.6717 6.50327 18.2293 5.93146C18.7869 5.35966 19.0998 4.58718 19.0998 3.78212C19.0998 2.97707 18.7869 2.2046 18.2293 1.63281C17.6717 1.06101 16.9144 0.736178 16.1223 0.728987C15.3302 0.736196 14.5729 1.06105 14.0153 1.63285C13.4577 2.20466 13.1449 2.97714 13.1449 3.78219C13.1449 4.58725 13.4577 5.35972 14.0154 5.93151C14.573 6.5033 15.3302 6.82814 16.1223 6.83533ZM16.1223 2.25557C16.5178 2.26016 16.8955 2.42302 17.1735 2.70882C17.4515 2.99461 17.6074 3.38029 17.6074 3.78218C17.6074 4.18407 17.4515 4.56974 17.1734 4.85553C16.8954 5.14132 16.5177 5.30417 16.1223 5.30874C15.7269 5.30416 15.3492 5.1413 15.0712 4.8555C14.7932 4.5697 14.6372 4.18402 14.6373 3.78214C14.6373 3.38025 14.7932 2.99457 15.0712 2.70878C15.3492 2.423 15.7269 2.26015 16.1223 2.25557Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M9.73841 9.12521C10.5305 9.118 11.2878 8.79315 11.8454 8.22134C12.403 7.64954 12.7158 6.87706 12.7158 6.072C12.7158 5.26695 12.403 4.49448 11.8453 3.92268C11.2877 3.35089 10.5305 3.02606 9.73835 3.01887C8.94624 3.02608 8.18898 3.35093 7.63137 3.92273C7.07376 4.49454 6.76092 5.26702 6.76093 6.07207C6.76093 6.87712 7.07379 7.6496 7.63142 8.22139C8.18904 8.79318 8.9463 9.11802 9.73841 9.12521ZM9.73841 4.54545C10.1338 4.55004 10.5115 4.7129 10.7895 4.9987C11.0675 5.28449 11.2235 5.67017 11.2235 6.07206C11.2235 6.47395 11.0675 6.85962 10.7895 7.14541C10.5115 7.4312 10.1338 7.59405 9.73837 7.59862C9.34295 7.59403 8.96526 7.43118 8.68725 7.14538C8.40923 6.85958 8.25331 6.4739 8.25332 6.07201C8.25332 5.67013 8.40926 5.28445 8.68728 4.99866C8.9653 4.71288 9.343 4.55003 9.73841 4.54545Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M7.10973 9.8885C7.10353 9.18411 6.82384 8.51071 6.33153 8.01485C5.83923 7.51898 5.17415 7.24079 4.48102 7.24079C3.7879 7.2408 3.12283 7.51901 2.63053 8.01489C2.13824 8.51076 1.85857 9.18417 1.85238 9.88856C1.85858 10.593 2.13827 11.2664 2.63058 11.7622C3.12288 12.2581 3.78796 12.5363 4.48108 12.5363C5.17421 12.5363 5.83928 12.258 6.33157 11.7622C6.82387 11.2663 7.10354 10.5929 7.10973 9.8885ZM4.48105 11.0334C4.18512 11.029 3.90277 10.9065 3.69503 10.6922C3.48728 10.478 3.37083 10.1893 3.37084 9.88847C3.37085 9.58768 3.48731 9.29897 3.69506 9.08474C3.90281 8.8705 4.18517 8.74795 4.48111 8.74356C4.77704 8.74796 5.05939 8.87053 5.26713 9.08477C5.47488 9.29902 5.59133 9.58773 5.59132 9.88853C5.59131 10.1893 5.47485 10.478 5.2671 10.6923C5.05935 10.9065 4.77699 11.0291 4.48105 11.0334Z"
+                            fill="#0C0A0A"
+                          />
+                          <path
+                            d="M2.2279 12.9417C1.63472 12.9485 1.06811 13.1927 0.651011 13.6214C0.233915 14.0501 -8.89803e-06 14.6287 2.53763e-10 15.2316C8.89853e-06 15.8345 0.23395 16.413 0.651058 16.8417C1.06817 17.2704 1.63479 17.5147 2.22797 17.5214C2.82115 17.5146 3.38777 17.2704 3.80486 16.8417C4.22196 16.413 4.45588 15.8344 4.45587 15.2315C4.45586 14.6286 4.22192 14.0501 3.80482 13.6214C3.38771 13.1927 2.82108 12.9484 2.2279 12.9417ZM2.2279 15.9948C2.03064 15.9919 1.84245 15.9101 1.70399 15.7673C1.56553 15.6245 1.48791 15.432 1.48791 15.2316C1.48791 15.0311 1.56553 14.8386 1.70399 14.6958C1.84245 14.553 2.03064 14.4712 2.2279 14.4683C2.42516 14.4712 2.61336 14.553 2.75182 14.6958C2.89028 14.8386 2.9679 15.0311 2.9679 15.2316C2.9679 15.432 2.89028 15.6245 2.75182 15.7673C2.61336 15.9101 2.42516 15.9919 2.2279 15.9948Z"
+                            fill="#0C0A0A"
+                          />
+                        </svg>
+                        <span class="time">2022</span>
+                        <a href="https//www.yadi.ci" target="_blank">
+                          <h6 class="title">Ydia Construction</h6>
+                        </a>
+                        <p>
+                          Entreprise spécialisée dans les BTP/Génie Civil, par
+                          ailleurs Représentante exclusive du Groupe Turque
+                          ENEZCAM pour la Sous-région Ouest-Africaine en matière
+                          des produits dérivés de Menuiserie Aluminium
+                        </p>
+                      </section>
+                    </div>
+                  </li>
+                </ul>
+              </section>
             </div>
           </div>
         </div>
       </section>
-    </section>
-    <!-- /About Section -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section light-background">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                  class="purecounter" id="happy-clients-counter"></span>
-                <p>Clients satisfaits</p>
-              </div>
-            </div>
-          </div>
-          <!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                  class="purecounter" id="projects-counter"></span>
-                <p>Projets</p>
-              </div>
-            </div>
-          </div>
-          <!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-headset color-green flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
-                  class="purecounter"></span>
-                <p>Heures d'assistance</p>
-              </div>
-            </div>
-          </div>
-          <!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-people color-pink flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1"
-                  class="purecounter" id="hardworkers-counter"></span>
-                <p>Travailleurs acharnés</p>
-              </div>
-            </div>
-          </div>
-          <!-- End Stats Item -->
-        </div>
-      </div>
-    </section>
-    
-    <section class=" rts-company-storyhear" id="filiales-section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Filiales</h2>
-        <p>Nos Filiales<br /></p>
-      </div>
-      <div class="container">
-        
-            <div class="row">
-                <div class="col-lg-12">
-                    <section class="timeline">
-                        <ul>
-                            
-
-                            <li class="item first">
-                                <div>
-                                    <section>
-                                        <a href="https//www.ddcs.ci" target="_blank">
-                                            <img class="mb--30" src="assets/img/ddcs.png" alt="story">
-                                        </a>
-
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
-                                            <path d="M31.1324 19.2783C29.441 17.5628 27.149 16.5994 24.7594 16.5994C22.3699 16.5994 20.0779 17.5628 18.3865 19.2783C12.7128 25.0193 16.8433 34.9642 24.7596 34.9101C32.6757 34.9641 36.8057 25.018 31.1324 19.2783ZM30.0703 31.1526C28.6605 32.5818 26.7506 33.3843 24.7594 33.3843C22.7682 33.3843 20.8583 32.5818 19.4485 31.1526C14.7154 26.4079 18.1867 18.0487 24.7595 18.126C31.332 18.0489 34.8045 26.4091 30.0703 31.1526Z" fill="#0C0A0A" />
-                                            <path d="M37.4296 34.3137C37.7672 33.7328 37.9056 33.0545 37.8232 32.3851C37.7408 31.7157 37.4423 31.0929 36.9743 30.6144L36.1054 29.7309C38.6854 22.5908 33.6067 14.2302 25.9538 13.6017C24.9292 11.9989 23.528 10.6806 21.8767 9.76582C20.2254 8.85104 18.376 8.36856 16.4953 8.36191C7.56838 8.24805 2.05855 18.8701 7.20086 26.2808C9.74868 30.0613 10.6519 32.0218 10.6519 33.772C10.7241 35.1866 9.72926 37.2684 9.73582 38.8936C9.73633 39.7537 9.91551 40.604 10.2616 41.3889C10.6078 42.1738 11.113 42.8755 11.7444 43.4483C12.3758 44.021 13.119 44.4518 13.9255 44.7125C14.732 44.9732 15.5835 45.058 16.4245 44.9612C17.2654 44.8644 18.0767 44.5883 18.8054 44.1508C19.5341 43.7134 20.1637 43.1246 20.6531 42.4229C21.1424 41.7211 21.4805 40.9223 21.6451 40.0786C21.8098 39.235 21.7973 38.3655 21.6085 37.5271C23.932 38.176 26.3947 38.0922 28.6703 37.2866L29.5379 38.1684C30.0087 38.6447 30.6219 38.9486 31.2812 39.0322C31.9404 39.1158 32.6084 38.9744 33.1799 38.6303L38.5674 44.1055C39.1324 44.6696 39.8938 44.9841 40.6859 44.9805C41.4779 44.9769 42.2366 44.6556 42.7966 44.0863C43.3567 43.5171 43.6729 42.7461 43.6764 41.9412C43.68 41.1362 43.3705 40.3624 42.8154 39.7881L37.4296 34.3137ZM20.1233 37.7636C21.3462 44.5002 11.6422 45.7053 11.2379 38.8936C11.3232 37.1987 12.2381 35.3321 12.1539 33.7719C12.154 31.6729 11.1822 29.4866 8.44021 25.4182C1.75487 14.7242 15.9133 4.00421 24.0847 13.5759C11.4505 14.4591 8.43695 31.6729 19.9675 36.943C20.0163 37.2062 20.0675 37.476 20.1233 37.7636ZM17.3241 33.3113C15.3569 31.3063 14.2531 28.5897 14.2551 25.7582C14.2571 22.9267 15.3648 20.2117 17.3349 18.2096C19.305 16.2074 21.9764 15.0818 24.7625 15.0798C27.5486 15.0779 30.2216 16.1998 32.1944 18.1991C41.6479 28.637 27.5946 42.9195 17.3241 33.3113ZM30.5977 37.0868L30.1696 36.6517C32.4635 35.478 34.3254 33.5859 35.4805 31.2547L35.9122 31.6938C36.193 31.9801 36.3507 32.3678 36.3507 32.772C36.3507 33.1762 36.193 33.5639 35.9122 33.8502L32.7276 37.0868C32.4441 37.3719 32.0615 37.5318 31.6626 37.5318C31.2638 37.5318 30.8812 37.3719 30.5977 37.0868ZM41.7534 43.0261C41.4674 43.3039 41.087 43.4589 40.6914 43.4589C40.2958 43.4589 39.9154 43.3039 39.6294 43.0261L34.3185 37.6287L36.4433 35.47L41.7534 40.8675C42.0335 41.1546 42.1906 41.5425 42.1906 41.9468C42.1906 42.3511 42.0335 42.739 41.7534 43.0261Z" fill="#0C0A0A" />
-                                            <path d="M24.7594 9.12521C25.9542 9.12388 27.0996 8.64095 27.9444 7.78236C28.7892 6.92378 29.2644 5.75967 29.2657 4.54545C29.0543 -1.51594 20.4637 -1.51438 20.2531 4.54553C20.2544 5.75974 20.7296 6.92383 21.5745 7.7824C22.4193 8.64096 23.5647 9.12389 24.7594 9.12521ZM24.7594 1.49228C25.5515 1.49949 26.3088 1.82434 26.8664 2.39615C27.424 2.96795 27.7369 3.74043 27.7368 4.54549C27.7368 5.35054 27.424 6.12301 26.8664 6.6948C26.3087 7.2666 25.5515 7.59143 24.7594 7.59862C23.9673 7.59141 23.21 7.26656 22.6524 6.69476C22.0948 6.12295 21.7819 5.35047 21.7819 4.54542C21.782 3.74036 22.0948 2.96789 22.6524 2.3961C23.2101 1.82431 23.9673 1.49947 24.7594 1.49228Z" fill="#0C0A0A" />
-                                            <path d="M16.1223 6.83533C16.9145 6.82812 17.6717 6.50327 18.2293 5.93146C18.7869 5.35966 19.0998 4.58718 19.0998 3.78212C19.0998 2.97707 18.7869 2.2046 18.2293 1.63281C17.6717 1.06101 16.9144 0.736178 16.1223 0.728987C15.3302 0.736196 14.5729 1.06105 14.0153 1.63285C13.4577 2.20466 13.1449 2.97714 13.1449 3.78219C13.1449 4.58725 13.4577 5.35972 14.0154 5.93151C14.573 6.5033 15.3302 6.82814 16.1223 6.83533ZM16.1223 2.25557C16.5178 2.26016 16.8955 2.42302 17.1735 2.70882C17.4515 2.99461 17.6074 3.38029 17.6074 3.78218C17.6074 4.18407 17.4515 4.56974 17.1734 4.85553C16.8954 5.14132 16.5177 5.30417 16.1223 5.30874C15.7269 5.30416 15.3492 5.1413 15.0712 4.8555C14.7932 4.5697 14.6372 4.18402 14.6373 3.78214C14.6373 3.38025 14.7932 2.99457 15.0712 2.70878C15.3492 2.423 15.7269 2.26015 16.1223 2.25557Z" fill="#0C0A0A" />
-                                            <path d="M9.73841 9.12521C10.5305 9.118 11.2878 8.79315 11.8454 8.22134C12.403 7.64954 12.7158 6.87706 12.7158 6.072C12.7158 5.26695 12.403 4.49448 11.8453 3.92268C11.2877 3.35089 10.5305 3.02606 9.73835 3.01887C8.94624 3.02608 8.18898 3.35093 7.63137 3.92273C7.07376 4.49454 6.76092 5.26702 6.76093 6.07207C6.76093 6.87712 7.07379 7.6496 7.63142 8.22139C8.18904 8.79318 8.9463 9.11802 9.73841 9.12521ZM9.73841 4.54545C10.1338 4.55004 10.5115 4.7129 10.7895 4.9987C11.0675 5.28449 11.2235 5.67017 11.2235 6.07206C11.2235 6.47395 11.0675 6.85962 10.7895 7.14541C10.5115 7.4312 10.1338 7.59405 9.73837 7.59862C9.34295 7.59403 8.96526 7.43118 8.68725 7.14538C8.40923 6.85958 8.25331 6.4739 8.25332 6.07201C8.25332 5.67013 8.40926 5.28445 8.68728 4.99866C8.9653 4.71288 9.343 4.55003 9.73841 4.54545Z" fill="#0C0A0A" />
-                                            <path d="M7.10973 9.8885C7.10353 9.18411 6.82384 8.51071 6.33153 8.01485C5.83923 7.51898 5.17415 7.24079 4.48102 7.24079C3.7879 7.2408 3.12283 7.51901 2.63053 8.01489C2.13824 8.51076 1.85857 9.18417 1.85238 9.88856C1.85858 10.593 2.13827 11.2664 2.63058 11.7622C3.12288 12.2581 3.78796 12.5363 4.48108 12.5363C5.17421 12.5363 5.83928 12.258 6.33157 11.7622C6.82387 11.2663 7.10354 10.5929 7.10973 9.8885ZM4.48105 11.0334C4.18512 11.029 3.90277 10.9065 3.69503 10.6922C3.48728 10.478 3.37083 10.1893 3.37084 9.88847C3.37085 9.58768 3.48731 9.29897 3.69506 9.08474C3.90281 8.8705 4.18517 8.74795 4.48111 8.74356C4.77704 8.74796 5.05939 8.87053 5.26713 9.08477C5.47488 9.29902 5.59133 9.58773 5.59132 9.88853C5.59131 10.1893 5.47485 10.478 5.2671 10.6923C5.05935 10.9065 4.77699 11.0291 4.48105 11.0334Z" fill="#0C0A0A" />
-                                            <path d="M2.2279 12.9417C1.63472 12.9485 1.06811 13.1927 0.651011 13.6214C0.233915 14.0501 -8.89803e-06 14.6287 2.53763e-10 15.2316C8.89853e-06 15.8345 0.23395 16.413 0.651058 16.8417C1.06817 17.2704 1.63479 17.5147 2.22797 17.5214C2.82115 17.5146 3.38777 17.2704 3.80486 16.8417C4.22196 16.413 4.45588 15.8344 4.45587 15.2315C4.45586 14.6286 4.22192 14.0501 3.80482 13.6214C3.38771 13.1927 2.82108 12.9484 2.2279 12.9417ZM2.2279 15.9948C2.03064 15.9919 1.84245 15.9101 1.70399 15.7673C1.56553 15.6245 1.48791 15.432 1.48791 15.2316C1.48791 15.0311 1.56553 14.8386 1.70399 14.6958C1.84245 14.553 2.03064 14.4712 2.2279 14.4683C2.42516 14.4712 2.61336 14.553 2.75182 14.6958C2.89028 14.8386 2.9679 15.0311 2.9679 15.2316C2.9679 15.432 2.89028 15.6245 2.75182 15.7673C2.61336 15.9101 2.42516 15.9919 2.2279 15.9948Z" fill="#0C0A0A" />
-                                        </svg>
-                                        <span class="time">2017</span>
-                                        <a href="https//www.ddcs.ci" target="_blank">
-                                        <h6 class="title">Digital Data Capture Solutions</h6>
-                                      </a>
-                                        <p>Partenaire de référence dans le domaine de la
-                                            Communication Unifiée, Représentante exclusive du Label LIFESIZE, et pionnière de la Visioconférence Haute Définition</p>
-
-                                    </section>
-                                </div>
-                            </li>
-                            <li class="item">
-                                <div>
-                                    <section>
-                                        <a href="https//www.yadi.ci" target="_blank">
-                                            <img class="mb--30" src="assets/img/yadicar.png" alt="story">
-                                        </a>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
-                                            <path d="M31.1324 19.2783C29.441 17.5628 27.149 16.5994 24.7594 16.5994C22.3699 16.5994 20.0779 17.5628 18.3865 19.2783C12.7128 25.0193 16.8433 34.9642 24.7596 34.9101C32.6757 34.9641 36.8057 25.018 31.1324 19.2783ZM30.0703 31.1526C28.6605 32.5818 26.7506 33.3843 24.7594 33.3843C22.7682 33.3843 20.8583 32.5818 19.4485 31.1526C14.7154 26.4079 18.1867 18.0487 24.7595 18.126C31.332 18.0489 34.8045 26.4091 30.0703 31.1526Z" fill="#0C0A0A" />
-                                            <path d="M37.4296 34.3137C37.7672 33.7328 37.9056 33.0545 37.8232 32.3851C37.7408 31.7157 37.4423 31.0929 36.9743 30.6144L36.1054 29.7309C38.6854 22.5908 33.6067 14.2302 25.9538 13.6017C24.9292 11.9989 23.528 10.6806 21.8767 9.76582C20.2254 8.85104 18.376 8.36856 16.4953 8.36191C7.56838 8.24805 2.05855 18.8701 7.20086 26.2808C9.74868 30.0613 10.6519 32.0218 10.6519 33.772C10.7241 35.1866 9.72926 37.2684 9.73582 38.8936C9.73633 39.7537 9.91551 40.604 10.2616 41.3889C10.6078 42.1738 11.113 42.8755 11.7444 43.4483C12.3758 44.021 13.119 44.4518 13.9255 44.7125C14.732 44.9732 15.5835 45.058 16.4245 44.9612C17.2654 44.8644 18.0767 44.5883 18.8054 44.1508C19.5341 43.7134 20.1637 43.1246 20.6531 42.4229C21.1424 41.7211 21.4805 40.9223 21.6451 40.0786C21.8098 39.235 21.7973 38.3655 21.6085 37.5271C23.932 38.176 26.3947 38.0922 28.6703 37.2866L29.5379 38.1684C30.0087 38.6447 30.6219 38.9486 31.2812 39.0322C31.9404 39.1158 32.6084 38.9744 33.1799 38.6303L38.5674 44.1055C39.1324 44.6696 39.8938 44.9841 40.6859 44.9805C41.4779 44.9769 42.2366 44.6556 42.7966 44.0863C43.3567 43.5171 43.6729 42.7461 43.6764 41.9412C43.68 41.1362 43.3705 40.3624 42.8154 39.7881L37.4296 34.3137ZM20.1233 37.7636C21.3462 44.5002 11.6422 45.7053 11.2379 38.8936C11.3232 37.1987 12.2381 35.3321 12.1539 33.7719C12.154 31.6729 11.1822 29.4866 8.44021 25.4182C1.75487 14.7242 15.9133 4.00421 24.0847 13.5759C11.4505 14.4591 8.43695 31.6729 19.9675 36.943C20.0163 37.2062 20.0675 37.476 20.1233 37.7636ZM17.3241 33.3113C15.3569 31.3063 14.2531 28.5897 14.2551 25.7582C14.2571 22.9267 15.3648 20.2117 17.3349 18.2096C19.305 16.2074 21.9764 15.0818 24.7625 15.0798C27.5486 15.0779 30.2216 16.1998 32.1944 18.1991C41.6479 28.637 27.5946 42.9195 17.3241 33.3113ZM30.5977 37.0868L30.1696 36.6517C32.4635 35.478 34.3254 33.5859 35.4805 31.2547L35.9122 31.6938C36.193 31.9801 36.3507 32.3678 36.3507 32.772C36.3507 33.1762 36.193 33.5639 35.9122 33.8502L32.7276 37.0868C32.4441 37.3719 32.0615 37.5318 31.6626 37.5318C31.2638 37.5318 30.8812 37.3719 30.5977 37.0868ZM41.7534 43.0261C41.4674 43.3039 41.087 43.4589 40.6914 43.4589C40.2958 43.4589 39.9154 43.3039 39.6294 43.0261L34.3185 37.6287L36.4433 35.47L41.7534 40.8675C42.0335 41.1546 42.1906 41.5425 42.1906 41.9468C42.1906 42.3511 42.0335 42.739 41.7534 43.0261Z" fill="#0C0A0A" />
-                                            <path d="M24.7594 9.12521C25.9542 9.12388 27.0996 8.64095 27.9444 7.78236C28.7892 6.92378 29.2644 5.75967 29.2657 4.54545C29.0543 -1.51594 20.4637 -1.51438 20.2531 4.54553C20.2544 5.75974 20.7296 6.92383 21.5745 7.7824C22.4193 8.64096 23.5647 9.12389 24.7594 9.12521ZM24.7594 1.49228C25.5515 1.49949 26.3088 1.82434 26.8664 2.39615C27.424 2.96795 27.7369 3.74043 27.7368 4.54549C27.7368 5.35054 27.424 6.12301 26.8664 6.6948C26.3087 7.2666 25.5515 7.59143 24.7594 7.59862C23.9673 7.59141 23.21 7.26656 22.6524 6.69476C22.0948 6.12295 21.7819 5.35047 21.7819 4.54542C21.782 3.74036 22.0948 2.96789 22.6524 2.3961C23.2101 1.82431 23.9673 1.49947 24.7594 1.49228Z" fill="#0C0A0A" />
-                                            <path d="M16.1223 6.83533C16.9145 6.82812 17.6717 6.50327 18.2293 5.93146C18.7869 5.35966 19.0998 4.58718 19.0998 3.78212C19.0998 2.97707 18.7869 2.2046 18.2293 1.63281C17.6717 1.06101 16.9144 0.736178 16.1223 0.728987C15.3302 0.736196 14.5729 1.06105 14.0153 1.63285C13.4577 2.20466 13.1449 2.97714 13.1449 3.78219C13.1449 4.58725 13.4577 5.35972 14.0154 5.93151C14.573 6.5033 15.3302 6.82814 16.1223 6.83533ZM16.1223 2.25557C16.5178 2.26016 16.8955 2.42302 17.1735 2.70882C17.4515 2.99461 17.6074 3.38029 17.6074 3.78218C17.6074 4.18407 17.4515 4.56974 17.1734 4.85553C16.8954 5.14132 16.5177 5.30417 16.1223 5.30874C15.7269 5.30416 15.3492 5.1413 15.0712 4.8555C14.7932 4.5697 14.6372 4.18402 14.6373 3.78214C14.6373 3.38025 14.7932 2.99457 15.0712 2.70878C15.3492 2.423 15.7269 2.26015 16.1223 2.25557Z" fill="#0C0A0A" />
-                                            <path d="M9.73841 9.12521C10.5305 9.118 11.2878 8.79315 11.8454 8.22134C12.403 7.64954 12.7158 6.87706 12.7158 6.072C12.7158 5.26695 12.403 4.49448 11.8453 3.92268C11.2877 3.35089 10.5305 3.02606 9.73835 3.01887C8.94624 3.02608 8.18898 3.35093 7.63137 3.92273C7.07376 4.49454 6.76092 5.26702 6.76093 6.07207C6.76093 6.87712 7.07379 7.6496 7.63142 8.22139C8.18904 8.79318 8.9463 9.11802 9.73841 9.12521ZM9.73841 4.54545C10.1338 4.55004 10.5115 4.7129 10.7895 4.9987C11.0675 5.28449 11.2235 5.67017 11.2235 6.07206C11.2235 6.47395 11.0675 6.85962 10.7895 7.14541C10.5115 7.4312 10.1338 7.59405 9.73837 7.59862C9.34295 7.59403 8.96526 7.43118 8.68725 7.14538C8.40923 6.85958 8.25331 6.4739 8.25332 6.07201C8.25332 5.67013 8.40926 5.28445 8.68728 4.99866C8.9653 4.71288 9.343 4.55003 9.73841 4.54545Z" fill="#0C0A0A" />
-                                            <path d="M7.10973 9.8885C7.10353 9.18411 6.82384 8.51071 6.33153 8.01485C5.83923 7.51898 5.17415 7.24079 4.48102 7.24079C3.7879 7.2408 3.12283 7.51901 2.63053 8.01489C2.13824 8.51076 1.85857 9.18417 1.85238 9.88856C1.85858 10.593 2.13827 11.2664 2.63058 11.7622C3.12288 12.2581 3.78796 12.5363 4.48108 12.5363C5.17421 12.5363 5.83928 12.258 6.33157 11.7622C6.82387 11.2663 7.10354 10.5929 7.10973 9.8885ZM4.48105 11.0334C4.18512 11.029 3.90277 10.9065 3.69503 10.6922C3.48728 10.478 3.37083 10.1893 3.37084 9.88847C3.37085 9.58768 3.48731 9.29897 3.69506 9.08474C3.90281 8.8705 4.18517 8.74795 4.48111 8.74356C4.77704 8.74796 5.05939 8.87053 5.26713 9.08477C5.47488 9.29902 5.59133 9.58773 5.59132 9.88853C5.59131 10.1893 5.47485 10.478 5.2671 10.6923C5.05935 10.9065 4.77699 11.0291 4.48105 11.0334Z" fill="#0C0A0A" />
-                                            <path d="M2.2279 12.9417C1.63472 12.9485 1.06811 13.1927 0.651011 13.6214C0.233915 14.0501 -8.89803e-06 14.6287 2.53763e-10 15.2316C8.89853e-06 15.8345 0.23395 16.413 0.651058 16.8417C1.06817 17.2704 1.63479 17.5147 2.22797 17.5214C2.82115 17.5146 3.38777 17.2704 3.80486 16.8417C4.22196 16.413 4.45588 15.8344 4.45587 15.2315C4.45586 14.6286 4.22192 14.0501 3.80482 13.6214C3.38771 13.1927 2.82108 12.9484 2.2279 12.9417ZM2.2279 15.9948C2.03064 15.9919 1.84245 15.9101 1.70399 15.7673C1.56553 15.6245 1.48791 15.432 1.48791 15.2316C1.48791 15.0311 1.56553 14.8386 1.70399 14.6958C1.84245 14.553 2.03064 14.4712 2.2279 14.4683C2.42516 14.4712 2.61336 14.553 2.75182 14.6958C2.89028 14.8386 2.9679 15.0311 2.9679 15.2316C2.9679 15.432 2.89028 15.6245 2.75182 15.7673C2.61336 15.9101 2.42516 15.9919 2.2279 15.9948Z" fill="#0C0A0A" />
-                                        </svg>
-                                        <span class="time">2019</span>
-                                          <a href="https//www.yadi.ci" target="_blank">
-                                        <h6 class="title">Yadi Car Center</h6>
-                                          </a>
-                                        <p>excelle aujourd’hui dans la Mécanique Générale via son réseau de garage automobile, dans l’entretien et la réparation de véhicules de toutes marques et dans l’installation de Quick Service au profit de grandes Groupes telles que ORANGE CI et AFG</p>
-                                    </section>
-                                </div>
-                            </li>
-                            <li class="item">
-                                <div>
-                                    <section>
-<a href="https//www.yadi.ci" target="_blank">
-                                        <img class="mb--30" src="assets/img/vroom.png" alt="story">
-</a>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
-                                            <path d="M31.1324 19.2783C29.441 17.5628 27.149 16.5994 24.7594 16.5994C22.3699 16.5994 20.0779 17.5628 18.3865 19.2783C12.7128 25.0193 16.8433 34.9642 24.7596 34.9101C32.6757 34.9641 36.8057 25.018 31.1324 19.2783ZM30.0703 31.1526C28.6605 32.5818 26.7506 33.3843 24.7594 33.3843C22.7682 33.3843 20.8583 32.5818 19.4485 31.1526C14.7154 26.4079 18.1867 18.0487 24.7595 18.126C31.332 18.0489 34.8045 26.4091 30.0703 31.1526Z" fill="#0C0A0A" />
-                                            <path d="M37.4296 34.3137C37.7672 33.7328 37.9056 33.0545 37.8232 32.3851C37.7408 31.7157 37.4423 31.0929 36.9743 30.6144L36.1054 29.7309C38.6854 22.5908 33.6067 14.2302 25.9538 13.6017C24.9292 11.9989 23.528 10.6806 21.8767 9.76582C20.2254 8.85104 18.376 8.36856 16.4953 8.36191C7.56838 8.24805 2.05855 18.8701 7.20086 26.2808C9.74868 30.0613 10.6519 32.0218 10.6519 33.772C10.7241 35.1866 9.72926 37.2684 9.73582 38.8936C9.73633 39.7537 9.91551 40.604 10.2616 41.3889C10.6078 42.1738 11.113 42.8755 11.7444 43.4483C12.3758 44.021 13.119 44.4518 13.9255 44.7125C14.732 44.9732 15.5835 45.058 16.4245 44.9612C17.2654 44.8644 18.0767 44.5883 18.8054 44.1508C19.5341 43.7134 20.1637 43.1246 20.6531 42.4229C21.1424 41.7211 21.4805 40.9223 21.6451 40.0786C21.8098 39.235 21.7973 38.3655 21.6085 37.5271C23.932 38.176 26.3947 38.0922 28.6703 37.2866L29.5379 38.1684C30.0087 38.6447 30.6219 38.9486 31.2812 39.0322C31.9404 39.1158 32.6084 38.9744 33.1799 38.6303L38.5674 44.1055C39.1324 44.6696 39.8938 44.9841 40.6859 44.9805C41.4779 44.9769 42.2366 44.6556 42.7966 44.0863C43.3567 43.5171 43.6729 42.7461 43.6764 41.9412C43.68 41.1362 43.3705 40.3624 42.8154 39.7881L37.4296 34.3137ZM20.1233 37.7636C21.3462 44.5002 11.6422 45.7053 11.2379 38.8936C11.3232 37.1987 12.2381 35.3321 12.1539 33.7719C12.154 31.6729 11.1822 29.4866 8.44021 25.4182C1.75487 14.7242 15.9133 4.00421 24.0847 13.5759C11.4505 14.4591 8.43695 31.6729 19.9675 36.943C20.0163 37.2062 20.0675 37.476 20.1233 37.7636ZM17.3241 33.3113C15.3569 31.3063 14.2531 28.5897 14.2551 25.7582C14.2571 22.9267 15.3648 20.2117 17.3349 18.2096C19.305 16.2074 21.9764 15.0818 24.7625 15.0798C27.5486 15.0779 30.2216 16.1998 32.1944 18.1991C41.6479 28.637 27.5946 42.9195 17.3241 33.3113ZM30.5977 37.0868L30.1696 36.6517C32.4635 35.478 34.3254 33.5859 35.4805 31.2547L35.9122 31.6938C36.193 31.9801 36.3507 32.3678 36.3507 32.772C36.3507 33.1762 36.193 33.5639 35.9122 33.8502L32.7276 37.0868C32.4441 37.3719 32.0615 37.5318 31.6626 37.5318C31.2638 37.5318 30.8812 37.3719 30.5977 37.0868ZM41.7534 43.0261C41.4674 43.3039 41.087 43.4589 40.6914 43.4589C40.2958 43.4589 39.9154 43.3039 39.6294 43.0261L34.3185 37.6287L36.4433 35.47L41.7534 40.8675C42.0335 41.1546 42.1906 41.5425 42.1906 41.9468C42.1906 42.3511 42.0335 42.739 41.7534 43.0261Z" fill="#0C0A0A" />
-                                            <path d="M24.7594 9.12521C25.9542 9.12388 27.0996 8.64095 27.9444 7.78236C28.7892 6.92378 29.2644 5.75967 29.2657 4.54545C29.0543 -1.51594 20.4637 -1.51438 20.2531 4.54553C20.2544 5.75974 20.7296 6.92383 21.5745 7.7824C22.4193 8.64096 23.5647 9.12389 24.7594 9.12521ZM24.7594 1.49228C25.5515 1.49949 26.3088 1.82434 26.8664 2.39615C27.424 2.96795 27.7369 3.74043 27.7368 4.54549C27.7368 5.35054 27.424 6.12301 26.8664 6.6948C26.3087 7.2666 25.5515 7.59143 24.7594 7.59862C23.9673 7.59141 23.21 7.26656 22.6524 6.69476C22.0948 6.12295 21.7819 5.35047 21.7819 4.54542C21.782 3.74036 22.0948 2.96789 22.6524 2.3961C23.2101 1.82431 23.9673 1.49947 24.7594 1.49228Z" fill="#0C0A0A" />
-                                            <path d="M16.1223 6.83533C16.9145 6.82812 17.6717 6.50327 18.2293 5.93146C18.7869 5.35966 19.0998 4.58718 19.0998 3.78212C19.0998 2.97707 18.7869 2.2046 18.2293 1.63281C17.6717 1.06101 16.9144 0.736178 16.1223 0.728987C15.3302 0.736196 14.5729 1.06105 14.0153 1.63285C13.4577 2.20466 13.1449 2.97714 13.1449 3.78219C13.1449 4.58725 13.4577 5.35972 14.0154 5.93151C14.573 6.5033 15.3302 6.82814 16.1223 6.83533ZM16.1223 2.25557C16.5178 2.26016 16.8955 2.42302 17.1735 2.70882C17.4515 2.99461 17.6074 3.38029 17.6074 3.78218C17.6074 4.18407 17.4515 4.56974 17.1734 4.85553C16.8954 5.14132 16.5177 5.30417 16.1223 5.30874C15.7269 5.30416 15.3492 5.1413 15.0712 4.8555C14.7932 4.5697 14.6372 4.18402 14.6373 3.78214C14.6373 3.38025 14.7932 2.99457 15.0712 2.70878C15.3492 2.423 15.7269 2.26015 16.1223 2.25557Z" fill="#0C0A0A" />
-                                            <path d="M9.73841 9.12521C10.5305 9.118 11.2878 8.79315 11.8454 8.22134C12.403 7.64954 12.7158 6.87706 12.7158 6.072C12.7158 5.26695 12.403 4.49448 11.8453 3.92268C11.2877 3.35089 10.5305 3.02606 9.73835 3.01887C8.94624 3.02608 8.18898 3.35093 7.63137 3.92273C7.07376 4.49454 6.76092 5.26702 6.76093 6.07207C6.76093 6.87712 7.07379 7.6496 7.63142 8.22139C8.18904 8.79318 8.9463 9.11802 9.73841 9.12521ZM9.73841 4.54545C10.1338 4.55004 10.5115 4.7129 10.7895 4.9987C11.0675 5.28449 11.2235 5.67017 11.2235 6.07206C11.2235 6.47395 11.0675 6.85962 10.7895 7.14541C10.5115 7.4312 10.1338 7.59405 9.73837 7.59862C9.34295 7.59403 8.96526 7.43118 8.68725 7.14538C8.40923 6.85958 8.25331 6.4739 8.25332 6.07201C8.25332 5.67013 8.40926 5.28445 8.68728 4.99866C8.9653 4.71288 9.343 4.55003 9.73841 4.54545Z" fill="#0C0A0A" />
-                                            <path d="M7.10973 9.8885C7.10353 9.18411 6.82384 8.51071 6.33153 8.01485C5.83923 7.51898 5.17415 7.24079 4.48102 7.24079C3.7879 7.2408 3.12283 7.51901 2.63053 8.01489C2.13824 8.51076 1.85857 9.18417 1.85238 9.88856C1.85858 10.593 2.13827 11.2664 2.63058 11.7622C3.12288 12.2581 3.78796 12.5363 4.48108 12.5363C5.17421 12.5363 5.83928 12.258 6.33157 11.7622C6.82387 11.2663 7.10354 10.5929 7.10973 9.8885ZM4.48105 11.0334C4.18512 11.029 3.90277 10.9065 3.69503 10.6922C3.48728 10.478 3.37083 10.1893 3.37084 9.88847C3.37085 9.58768 3.48731 9.29897 3.69506 9.08474C3.90281 8.8705 4.18517 8.74795 4.48111 8.74356C4.77704 8.74796 5.05939 8.87053 5.26713 9.08477C5.47488 9.29902 5.59133 9.58773 5.59132 9.88853C5.59131 10.1893 5.47485 10.478 5.2671 10.6923C5.05935 10.9065 4.77699 11.0291 4.48105 11.0334Z" fill="#0C0A0A" />
-                                            <path d="M2.2279 12.9417C1.63472 12.9485 1.06811 13.1927 0.651011 13.6214C0.233915 14.0501 -8.89803e-06 14.6287 2.53763e-10 15.2316C8.89853e-06 15.8345 0.23395 16.413 0.651058 16.8417C1.06817 17.2704 1.63479 17.5147 2.22797 17.5214C2.82115 17.5146 3.38777 17.2704 3.80486 16.8417C4.22196 16.413 4.45588 15.8344 4.45587 15.2315C4.45586 14.6286 4.22192 14.0501 3.80482 13.6214C3.38771 13.1927 2.82108 12.9484 2.2279 12.9417ZM2.2279 15.9948C2.03064 15.9919 1.84245 15.9101 1.70399 15.7673C1.56553 15.6245 1.48791 15.432 1.48791 15.2316C1.48791 15.0311 1.56553 14.8386 1.70399 14.6958C1.84245 14.553 2.03064 14.4712 2.2279 14.4683C2.42516 14.4712 2.61336 14.553 2.75182 14.6958C2.89028 14.8386 2.9679 15.0311 2.9679 15.2316C2.9679 15.432 2.89028 15.6245 2.75182 15.7673C2.61336 15.9101 2.42516 15.9919 2.2279 15.9948Z" fill="#0C0A0A" />
-                                        </svg>
-                                        <span class="time">2021</span>
-                                        <a href="https//www.yadi.ci" target="_blank">
-                                        <h6 class="title">VROOM</h6>
-                                        </a>
-                                        <p>Specialisé dans les secteurs de la logistique et du Transport grand public et privé</p>
-                                    </section>
-                                </div>
-                            </li>
-                            <li class="item">
-                                <div>
-                                    <section>
-                                           <a href="https//www.yadi.ci" target="_blank">
-                                        <img class="mb--30" src="assets/img/ydia.png" alt="story">
-                                        </a>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
-                                            <path d="M31.1324 19.2783C29.441 17.5628 27.149 16.5994 24.7594 16.5994C22.3699 16.5994 20.0779 17.5628 18.3865 19.2783C12.7128 25.0193 16.8433 34.9642 24.7596 34.9101C32.6757 34.9641 36.8057 25.018 31.1324 19.2783ZM30.0703 31.1526C28.6605 32.5818 26.7506 33.3843 24.7594 33.3843C22.7682 33.3843 20.8583 32.5818 19.4485 31.1526C14.7154 26.4079 18.1867 18.0487 24.7595 18.126C31.332 18.0489 34.8045 26.4091 30.0703 31.1526Z" fill="#0C0A0A" />
-                                            <path d="M37.4296 34.3137C37.7672 33.7328 37.9056 33.0545 37.8232 32.3851C37.7408 31.7157 37.4423 31.0929 36.9743 30.6144L36.1054 29.7309C38.6854 22.5908 33.6067 14.2302 25.9538 13.6017C24.9292 11.9989 23.528 10.6806 21.8767 9.76582C20.2254 8.85104 18.376 8.36856 16.4953 8.36191C7.56838 8.24805 2.05855 18.8701 7.20086 26.2808C9.74868 30.0613 10.6519 32.0218 10.6519 33.772C10.7241 35.1866 9.72926 37.2684 9.73582 38.8936C9.73633 39.7537 9.91551 40.604 10.2616 41.3889C10.6078 42.1738 11.113 42.8755 11.7444 43.4483C12.3758 44.021 13.119 44.4518 13.9255 44.7125C14.732 44.9732 15.5835 45.058 16.4245 44.9612C17.2654 44.8644 18.0767 44.5883 18.8054 44.1508C19.5341 43.7134 20.1637 43.1246 20.6531 42.4229C21.1424 41.7211 21.4805 40.9223 21.6451 40.0786C21.8098 39.235 21.7973 38.3655 21.6085 37.5271C23.932 38.176 26.3947 38.0922 28.6703 37.2866L29.5379 38.1684C30.0087 38.6447 30.6219 38.9486 31.2812 39.0322C31.9404 39.1158 32.6084 38.9744 33.1799 38.6303L38.5674 44.1055C39.1324 44.6696 39.8938 44.9841 40.6859 44.9805C41.4779 44.9769 42.2366 44.6556 42.7966 44.0863C43.3567 43.5171 43.6729 42.7461 43.6764 41.9412C43.68 41.1362 43.3705 40.3624 42.8154 39.7881L37.4296 34.3137ZM20.1233 37.7636C21.3462 44.5002 11.6422 45.7053 11.2379 38.8936C11.3232 37.1987 12.2381 35.3321 12.1539 33.7719C12.154 31.6729 11.1822 29.4866 8.44021 25.4182C1.75487 14.7242 15.9133 4.00421 24.0847 13.5759C11.4505 14.4591 8.43695 31.6729 19.9675 36.943C20.0163 37.2062 20.0675 37.476 20.1233 37.7636ZM17.3241 33.3113C15.3569 31.3063 14.2531 28.5897 14.2551 25.7582C14.2571 22.9267 15.3648 20.2117 17.3349 18.2096C19.305 16.2074 21.9764 15.0818 24.7625 15.0798C27.5486 15.0779 30.2216 16.1998 32.1944 18.1991C41.6479 28.637 27.5946 42.9195 17.3241 33.3113ZM30.5977 37.0868L30.1696 36.6517C32.4635 35.478 34.3254 33.5859 35.4805 31.2547L35.9122 31.6938C36.193 31.9801 36.3507 32.3678 36.3507 32.772C36.3507 33.1762 36.193 33.5639 35.9122 33.8502L32.7276 37.0868C32.4441 37.3719 32.0615 37.5318 31.6626 37.5318C31.2638 37.5318 30.8812 37.3719 30.5977 37.0868ZM41.7534 43.0261C41.4674 43.3039 41.087 43.4589 40.6914 43.4589C40.2958 43.4589 39.9154 43.3039 39.6294 43.0261L34.3185 37.6287L36.4433 35.47L41.7534 40.8675C42.0335 41.1546 42.1906 41.5425 42.1906 41.9468C42.1906 42.3511 42.0335 42.739 41.7534 43.0261Z" fill="#0C0A0A" />
-                                            <path d="M24.7594 9.12521C25.9542 9.12388 27.0996 8.64095 27.9444 7.78236C28.7892 6.92378 29.2644 5.75967 29.2657 4.54545C29.0543 -1.51594 20.4637 -1.51438 20.2531 4.54553C20.2544 5.75974 20.7296 6.92383 21.5745 7.7824C22.4193 8.64096 23.5647 9.12389 24.7594 9.12521ZM24.7594 1.49228C25.5515 1.49949 26.3088 1.82434 26.8664 2.39615C27.424 2.96795 27.7369 3.74043 27.7368 4.54549C27.7368 5.35054 27.424 6.12301 26.8664 6.6948C26.3087 7.2666 25.5515 7.59143 24.7594 7.59862C23.9673 7.59141 23.21 7.26656 22.6524 6.69476C22.0948 6.12295 21.7819 5.35047 21.7819 4.54542C21.782 3.74036 22.0948 2.96789 22.6524 2.3961C23.2101 1.82431 23.9673 1.49947 24.7594 1.49228Z" fill="#0C0A0A" />
-                                            <path d="M16.1223 6.83533C16.9145 6.82812 17.6717 6.50327 18.2293 5.93146C18.7869 5.35966 19.0998 4.58718 19.0998 3.78212C19.0998 2.97707 18.7869 2.2046 18.2293 1.63281C17.6717 1.06101 16.9144 0.736178 16.1223 0.728987C15.3302 0.736196 14.5729 1.06105 14.0153 1.63285C13.4577 2.20466 13.1449 2.97714 13.1449 3.78219C13.1449 4.58725 13.4577 5.35972 14.0154 5.93151C14.573 6.5033 15.3302 6.82814 16.1223 6.83533ZM16.1223 2.25557C16.5178 2.26016 16.8955 2.42302 17.1735 2.70882C17.4515 2.99461 17.6074 3.38029 17.6074 3.78218C17.6074 4.18407 17.4515 4.56974 17.1734 4.85553C16.8954 5.14132 16.5177 5.30417 16.1223 5.30874C15.7269 5.30416 15.3492 5.1413 15.0712 4.8555C14.7932 4.5697 14.6372 4.18402 14.6373 3.78214C14.6373 3.38025 14.7932 2.99457 15.0712 2.70878C15.3492 2.423 15.7269 2.26015 16.1223 2.25557Z" fill="#0C0A0A" />
-                                            <path d="M9.73841 9.12521C10.5305 9.118 11.2878 8.79315 11.8454 8.22134C12.403 7.64954 12.7158 6.87706 12.7158 6.072C12.7158 5.26695 12.403 4.49448 11.8453 3.92268C11.2877 3.35089 10.5305 3.02606 9.73835 3.01887C8.94624 3.02608 8.18898 3.35093 7.63137 3.92273C7.07376 4.49454 6.76092 5.26702 6.76093 6.07207C6.76093 6.87712 7.07379 7.6496 7.63142 8.22139C8.18904 8.79318 8.9463 9.11802 9.73841 9.12521ZM9.73841 4.54545C10.1338 4.55004 10.5115 4.7129 10.7895 4.9987C11.0675 5.28449 11.2235 5.67017 11.2235 6.07206C11.2235 6.47395 11.0675 6.85962 10.7895 7.14541C10.5115 7.4312 10.1338 7.59405 9.73837 7.59862C9.34295 7.59403 8.96526 7.43118 8.68725 7.14538C8.40923 6.85958 8.25331 6.4739 8.25332 6.07201C8.25332 5.67013 8.40926 5.28445 8.68728 4.99866C8.9653 4.71288 9.343 4.55003 9.73841 4.54545Z" fill="#0C0A0A" />
-                                            <path d="M7.10973 9.8885C7.10353 9.18411 6.82384 8.51071 6.33153 8.01485C5.83923 7.51898 5.17415 7.24079 4.48102 7.24079C3.7879 7.2408 3.12283 7.51901 2.63053 8.01489C2.13824 8.51076 1.85857 9.18417 1.85238 9.88856C1.85858 10.593 2.13827 11.2664 2.63058 11.7622C3.12288 12.2581 3.78796 12.5363 4.48108 12.5363C5.17421 12.5363 5.83928 12.258 6.33157 11.7622C6.82387 11.2663 7.10354 10.5929 7.10973 9.8885ZM4.48105 11.0334C4.18512 11.029 3.90277 10.9065 3.69503 10.6922C3.48728 10.478 3.37083 10.1893 3.37084 9.88847C3.37085 9.58768 3.48731 9.29897 3.69506 9.08474C3.90281 8.8705 4.18517 8.74795 4.48111 8.74356C4.77704 8.74796 5.05939 8.87053 5.26713 9.08477C5.47488 9.29902 5.59133 9.58773 5.59132 9.88853C5.59131 10.1893 5.47485 10.478 5.2671 10.6923C5.05935 10.9065 4.77699 11.0291 4.48105 11.0334Z" fill="#0C0A0A" />
-                                            <path d="M2.2279 12.9417C1.63472 12.9485 1.06811 13.1927 0.651011 13.6214C0.233915 14.0501 -8.89803e-06 14.6287 2.53763e-10 15.2316C8.89853e-06 15.8345 0.23395 16.413 0.651058 16.8417C1.06817 17.2704 1.63479 17.5147 2.22797 17.5214C2.82115 17.5146 3.38777 17.2704 3.80486 16.8417C4.22196 16.413 4.45588 15.8344 4.45587 15.2315C4.45586 14.6286 4.22192 14.0501 3.80482 13.6214C3.38771 13.1927 2.82108 12.9484 2.2279 12.9417ZM2.2279 15.9948C2.03064 15.9919 1.84245 15.9101 1.70399 15.7673C1.56553 15.6245 1.48791 15.432 1.48791 15.2316C1.48791 15.0311 1.56553 14.8386 1.70399 14.6958C1.84245 14.553 2.03064 14.4712 2.2279 14.4683C2.42516 14.4712 2.61336 14.553 2.75182 14.6958C2.89028 14.8386 2.9679 15.0311 2.9679 15.2316C2.9679 15.432 2.89028 15.6245 2.75182 15.7673C2.61336 15.9101 2.42516 15.9919 2.2279 15.9948Z" fill="#0C0A0A" />
-                                        </svg>
-                                        <span class="time">2022</span>
-                                         <a href="https//www.yadi.ci" target="_blank">
-                                        <h6 class="title">Ydia Construction</h6>
-                                        </a>
-                                        <p>Entreprise spécialisée dans les BTP/Génie Civil, par ailleurs Représentante exclusive du Groupe Turque ENEZCAM pour la Sous-région Ouest-Africaine en matière des produits dérivés de Menuiserie Aluminium </p>
-                                    </section>
-                                </div>
-                            </li>
-
-
-                        </ul>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <!-- <section id="services" class="services section">
+      <!-- Services Section -->
+      <!-- <section id="services" class="services section">
         <div class="container section-title" data-aos="fade-up">
           <h2>Services</h2>
           <p>Featured Srvices<br /></p>
@@ -613,266 +850,402 @@
         </div>
       </section> -->
 
-    <!-- Partners Section -->
-    <section id="partners" class="partners section light-background">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Partenaires</h2>
-        <p>Nos Partenaires<br /></p>
-      </div>
-      <div class="container" data-aos="fade-up">
-        <div class="partner-slider">
-          <div class="partner-track">
-            <!-- Première série de logos -->
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/0.jpg" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/1.png" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/2.jpg" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/3.png" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/4.jpg" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/5.jpg" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/6.jpg" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/7.jpg" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/8.png" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/9.png" class="img-fluid" alt="Partenaire" />
-            </div>
+      <!-- Partners Section -->
+      <section id="partners" class="partners section light-background">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Partenaires</h2>
+          <p>Nos Partenaires<br /></p>
+        </div>
+        <div class="container" data-aos="fade-up">
+          <div class="partner-slider">
+            <div class="partner-track">
+              <!-- Première série de logos -->
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/0.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/1.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/2.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/3.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/4.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/5.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/6.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/7.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/8.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/9.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
 
-            <!-- Duplication pour effet de boucle continu -->
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/10.png" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/11.jpg" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/12.png" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/13.jpg" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/14.png" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/15.png" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/16.png" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/17.jpg" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/18.png" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/19.jpg" class="img-fluid" alt="Partenaire" />
-            </div>
-            <div class="col-xl-2 col-md-3 col-6 partner-logo">
-              <img src="assets/img/clients/20.png" class="img-fluid" alt="Partenaire" />
+              <!-- Duplication pour effet de boucle continu -->
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/10.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/11.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/12.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/13.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/14.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/15.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/16.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/17.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/18.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/19.jpg"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
+              <div class="col-xl-2 col-md-3 col-6 partner-logo">
+                <img
+                  src="assets/img/clients/20.png"
+                  class="img-fluid"
+                  alt="Partenaire"
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Nos Engagements</h2>
-        <p>Les valeurs qui unissent nos 4 entreprises</p>
-      </div>
-      <div class="container">
-        <ul class="nav nav-tabs row d-flex" data-aos="fade-up" data-aos-delay="100">
-          <li class="nav-item col-3">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-              <i class="bi bi-people-fill"></i>
-              <h4 class="d-none d-lg-block">Impact Social</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-              <i class="bi bi-tree-fill"></i>
-              <h4 class="d-none d-lg-block">Éco-responsabilité</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-              <i class="bi bi-award-fill"></i>
-              <h4 class="d-none d-lg-block">Excellence</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
-              <i class="bi bi-lightbulb-fill"></i>
-              <h4 class="d-none d-lg-block">Innovation</h4>
-            </a>
-          </li>
-        </ul>
-        <!-- End Tab Nav -->
-
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-          <div class="tab-pane fade active show" id="features-tab-1">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Développement humain et local</h3>
-                <p class="fst-italic">
-                  "Nous investissons dans les talents et les communautés où
-                  nous opérons"
-                </p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>750 emplois créés en 2023 dont 65% pour les
-                      jeunes</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>15 écoles rénovées dans nos zones d'intervention</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>Programme "Femmes Entrepreneures" avec 30
-                      bénéficiaires</span>
-                  </li>
-                </ul>
-                <p>
-                  Notre fonds social consacre 5% de nos bénéfices annuels à
-                  des initiatives éducatives et de formation professionnelle.
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/engagement-social.png" alt="Impact social" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-          <!-- End Tab Content Item -->
-
-          <div class="tab-pane fade" id="features-tab-2">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Engagement environnemental</h3>
-                <p>
-                  Nos 4 entreprises unies pour réduire notre empreinte
-                  écologique :
-                </p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>90% des déchets de construction recyclés</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>30% de véhicules hybrides dans notre flotte d'ici
-                      2024</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>Politique Zéro Plastique dans toutes nos agences</span>
-                  </li>
-                </ul>
-                <p class="fst-italic">
-                  Nous visons la neutralité carbone pour 2030 à travers nos
-                  investissements dans les énergies renouvelables.
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/engagement-eco.png" alt="Éco-responsabilité" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-          <!-- End Tab Content Item -->
-
-          <div class="tab-pane fade" id="features-tab-3">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Exigence qualité</h3>
-                <p class="fst-italic">
-                  "Nous ne livrons que ce que nous pouvons garantir"
-                </p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>Certifications ISO 9001 pour toutes nos filières</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>97% de satisfaction client en 2023</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>50 heures de formation annuelle par collaborateur</span>
-                  </li>
-                </ul>
-                <p>
-                  Notre système qualité unifié assure les mêmes standards
-                  élevés à travers l'ensemble de nos entreprises.
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/engagement-quality.png" alt="Excellence" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-          <!-- End Tab Content Item -->
-
-          <div class="tab-pane fade" id="features-tab-4">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Innovation collaborative</h3>
-                <p>
-                  Synergies entre nos 4 entreprises pour inventer demain :
-                </p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>15 projets R&D en cours inter-entreprises</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>Prix "Best Innovator" 2023 pour notre solution BTP
-                      4.0</span>
-                  </li>
-                  <li>
-                    <i class="bi bi-check2-all"></i>
-                    <span>5 brevets déposés en 3 ans</span>
-                  </li>
-                </ul>
-                <p class="fst-italic">
-                  8% de notre chiffre d'affaires est réinvesti en innovation
-                  chaque année.
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/engagement-innovation.png" alt="Innovation" class="img-fluid" />
-              </div>
-            </div>
-          </div>
-          <!-- End Tab Content Item -->
+      <!-- Features Section -->
+      <section id="features" class="features section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Nos Engagements</h2>
+          <p>Les valeurs qui unissent nos 4 entreprises</p>
         </div>
-      </div>
-    </section>
-    <!-- /Features Section -->
+        <div class="container">
+          <ul
+            class="nav nav-tabs row d-flex"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <li class="nav-item col-3">
+              <a
+                class="nav-link active show"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-1"
+              >
+                <i class="bi bi-people-fill"></i>
+                <h4 class="d-none d-lg-block">Impact Social</h4>
+              </a>
+            </li>
+            <li class="nav-item col-3">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-2"
+              >
+                <i class="bi bi-tree-fill"></i>
+                <h4 class="d-none d-lg-block">Éco-responsabilité</h4>
+              </a>
+            </li>
+            <li class="nav-item col-3">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-3"
+              >
+                <i class="bi bi-award-fill"></i>
+                <h4 class="d-none d-lg-block">Excellence</h4>
+              </a>
+            </li>
+            <li class="nav-item col-3">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                data-bs-target="#features-tab-4"
+              >
+                <i class="bi bi-lightbulb-fill"></i>
+                <h4 class="d-none d-lg-block">Innovation</h4>
+              </a>
+            </li>
+          </ul>
+          <!-- End Tab Nav -->
 
-    <!-- Services 2 Section -->
-    <!-- <section id="services-2" class="services-2 section light-background">
+          <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+            <div class="tab-pane fade active show" id="features-tab-1">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Développement humain et local</h3>
+                  <p class="fst-italic">
+                    "Nous investissons dans les talents et les communautés où
+                    nous opérons"
+                  </p>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span
+                        >750 emplois créés en 2023 dont 65% pour les
+                        jeunes</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span
+                        >15 écoles rénovées dans nos zones d'intervention</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span
+                        >Programme "Femmes Entrepreneures" avec 30
+                        bénéficiaires</span
+                      >
+                    </li>
+                  </ul>
+                  <p>
+                    Notre fonds social consacre 5% de nos bénéfices annuels à
+                    des initiatives éducatives et de formation professionnelle.
+                  </p>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img
+                    src="assets/img/engagement-social.png"
+                    alt="Impact social"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- End Tab Content Item -->
+
+            <div class="tab-pane fade" id="features-tab-2">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Engagement environnemental</h3>
+                  <p>
+                    Nos 4 entreprises unies pour réduire notre empreinte
+                    écologique :
+                  </p>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span>90% des déchets de construction recyclés</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span
+                        >30% de véhicules hybrides dans notre flotte d'ici
+                        2024</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span
+                        >Politique Zéro Plastique dans toutes nos agences</span
+                      >
+                    </li>
+                  </ul>
+                  <p class="fst-italic">
+                    Nous visons la neutralité carbone pour 2030 à travers nos
+                    investissements dans les énergies renouvelables.
+                  </p>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img
+                    src="assets/img/engagement-eco.png"
+                    alt="Éco-responsabilité"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- End Tab Content Item -->
+
+            <div class="tab-pane fade" id="features-tab-3">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Exigence qualité</h3>
+                  <p class="fst-italic">
+                    "Nous ne livrons que ce que nous pouvons garantir"
+                  </p>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span
+                        >Certifications ISO 9001 pour toutes nos filières</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span>97% de satisfaction client en 2023</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span
+                        >50 heures de formation annuelle par collaborateur</span
+                      >
+                    </li>
+                  </ul>
+                  <p>
+                    Notre système qualité unifié assure les mêmes standards
+                    élevés à travers l'ensemble de nos entreprises.
+                  </p>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img
+                    src="assets/img/engagement-quality.png"
+                    alt="Excellence"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- End Tab Content Item -->
+
+            <div class="tab-pane fade" id="features-tab-4">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Innovation collaborative</h3>
+                  <p>
+                    Synergies entre nos 4 entreprises pour inventer demain :
+                  </p>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span>15 projets R&D en cours inter-entreprises</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span
+                        >Prix "Best Innovator" 2023 pour notre solution BTP
+                        4.0</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-check2-all"></i>
+                      <span>5 brevets déposés en 3 ans</span>
+                    </li>
+                  </ul>
+                  <p class="fst-italic">
+                    8% de notre chiffre d'affaires est réinvesti en innovation
+                    chaque année.
+                  </p>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img
+                    src="assets/img/engagement-innovation.png"
+                    alt="Innovation"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- End Tab Content Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Features Section -->
+
+      <!-- Services 2 Section -->
+      <!-- <section id="services-2" class="services-2 section light-background">
         
         <div class="container section-title" data-aos="fade-up">
           <h2>Services</h2>
@@ -980,167 +1353,221 @@
           </div>
         </div>
       </section> -->
-    <!-- /Services 2 Section -->
+      <!-- /Services 2 Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section dark-background">
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="" />
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials section dark-background">
+        <img
+          src="assets/img/testimonials-bg.jpg"
+          class="testimonials-bg"
+          alt=""
+        />
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
               }
-            }
-          </script>
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/1-yc.png" class="testimonial-img" alt="" />
-                <!-- <h3>Saul Goodman</h3>
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/1-yc.png"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <!-- <h3>Saul Goodman</h3>
                   <h4>Ceo &amp; Founder</h4> -->
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >La construction n'est pas simplement une question de
+                      béton et de briques, c'est l'art de façonner l'avenir,
+                      brique par brique, en construisant des espaces qui
+                      inspirent et durent pour les générations à venir. Chaque
+                      projet est une promesse de qualité et de solidité, un
+                      investissement pour demain.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>La construction n'est pas simplement une question de
-                    béton et de briques, c'est l'art de façonner l'avenir,
-                    brique par brique, en construisant des espaces qui
-                    inspirent et durent pour les générations à venir. Chaque
-                    projet est une promesse de qualité et de solidité, un
-                    investissement pour demain.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div>
-            <!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/2-y.png" class="testimonial-img" alt="" />
-                <!-- <h3>Sara Wilsson</h3>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/2-y.png"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <!-- <h3>Sara Wilsson</h3>
                   <h4>Designer</h4> -->
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >Chaque véhicule est bien plus qu'un simple moyen de
+                      transport : c'est une extension de notre quotidien. Dans
+                      notre garage, nous ne nous contentons pas de réparer des
+                      voitures, nous offrons la tranquillité d'esprit, un
+                      service impeccable et la certitude que chaque conducteur
+                      pourra reprendre la route en toute sécurité.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Chaque véhicule est bien plus qu'un simple moyen de
-                    transport : c'est une extension de notre quotidien. Dans
-                    notre garage, nous ne nous contentons pas de réparer des
-                    voitures, nous offrons la tranquillité d'esprit, un
-                    service impeccable et la certitude que chaque conducteur
-                    pourra reprendre la route en toute sécurité.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div>
-            <!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/3.jpeg" class="testimonial-img" alt="" />
-                <!-- <h3>Jena Karlis</h3>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/3.jpeg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <!-- <h3>Jena Karlis</h3>
                   <h4>Store Owner</h4> -->
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >Que ce soit pour un déplacement professionnel ou pour un
+                      événement spécial, chaque voyage mérite d'être
+                      exceptionnel. Nos services de transport sont conçus pour
+                      vous offrir un confort optimal, une ponctualité sans
+                      faille et un trajet sans souci. Le transport n'est pas
+                      seulement une question de distance, mais
+                      d'expérience.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Que ce soit pour un déplacement professionnel ou pour un
-                    événement spécial, chaque voyage mérite d'être
-                    exceptionnel. Nos services de transport sont conçus pour
-                    vous offrir un confort optimal, une ponctualité sans
-                    faille et un trajet sans souci. Le transport n'est pas
-                    seulement une question de distance, mais
-                    d'expérience.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div>
-            <!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/4.jpg" class="testimonial-img" alt="" />
-                <!-- <h3>Matt Brandon</h3>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/4.jpg"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <!-- <h3>Matt Brandon</h3>
                   <h4>Freelancer</h4> -->
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >La technologie n'est pas seulement un outil, elle est le
+                      moteur qui propulse l'innovation et transforme le monde.
+                      Que ce soit dans la gestion de projets, l'automatisation
+                      des processus ou les nouvelles découvertes, la technologie
+                      est au cœur de toutes les révolutions qui façonnent notre
+                      avenir.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>La technologie n'est pas seulement un outil, elle est le
-                    moteur qui propulse l'innovation et transforme le monde.
-                    Que ce soit dans la gestion de projets, l'automatisation
-                    des processus ou les nouvelles découvertes, la technologie
-                    est au cœur de toutes les révolutions qui façonnent notre
-                    avenir.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
-            </div>
-            <!-- End testimonial item -->
+              <!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/5-g.png" class="testimonial-img" alt="" />
-                <!-- <h3>John Larson</h3>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img
+                    src="assets/img/testimonials/5-g.png"
+                    class="testimonial-img"
+                    alt=""
+                  />
+                  <!-- <h3>John Larson</h3>
                   <h4>Entrepreneur</h4> -->
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span
+                      >L'excellence dans notre métier ne vient pas seulement de
+                      l'exécution parfaite, mais de l'engagement constant à
+                      améliorer chaque aspect de nos services, de la qualité des
+                      matériaux à l'efficacité des solutions technologiques que
+                      nous utilisons. Chaque projet, chaque transport, chaque
+                      service compte.</span
+                    >
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>L'excellence dans notre métier ne vient pas seulement de
-                    l'exécution parfaite, mais de l'engagement constant à
-                    améliorer chaque aspect de nos services, de la qualité des
-                    matériaux à l'efficacité des solutions technologiques que
-                    nous utilisons. Chaque projet, chaque transport, chaque
-                    service compte.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
               </div>
+              <!-- End testimonial item -->
             </div>
-            <!-- End testimonial item -->
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
-      </div>
-    </section>
-    <!-- /Testimonials Section -->
+      </section>
+      <!-- /Testimonials Section -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Actualités</h2>
-        <p>CONSULTEZ NOTRE Actualités</p>
-      </div>
-      <!-- End Section Title -->
-
-      <div class="container">
-        <div class="empty-content" data-aos="fade-up" data-aos-delay="200">
-          Disponible bientôt
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Actualités</h2>
+          <p>CONSULTEZ NOTRE Actualités</p>
         </div>
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-          <!-- <ul
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="empty-content" data-aos="fade-up" data-aos-delay="200">
+            Disponible bientôt
+          </div>
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <!-- <ul
               class="portfolio-filters isotope-filters"
               data-aos="fade-up"
               data-aos-delay="100"
@@ -1151,9 +1578,9 @@
               <li data-filter=".filter-branding">Branding</li>
               <li data-filter=".filter-books">Books</li>
             </ul> -->
-          <!-- End Portfolio Filters -->
+            <!-- End Portfolio Filters -->
 
-          <!-- <div
+            <!-- <div
               class="row gy-4 isotope-container"
               data-aos="fade-up"
               data-aos-delay="200"
@@ -1516,13 +1943,13 @@
               </div>
               
             </div> -->
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- /Portfolio Section -->
+      </section>
+      <!-- /Portfolio Section -->
 
-    <!-- Team Section -->
-    <!-- <section id="team" class="team section light-background">
+      <!-- Team Section -->
+      <!-- <section id="team" class="team section light-background">
       
       <div class="container section-title" data-aos="fade-up">
         <h2>Équipe</h2>
@@ -1591,221 +2018,273 @@
       </div>
     </section> -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section light-background">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Nous Contacter</p>
-      </div>
-      <!-- End Section Title -->
+      <!-- Contact Section -->
+      <section id="contact" class="contact section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Nous Contacter</p>
+        </div>
+        <!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div class="row gy-4">
+                <div class="col-lg-12">
+                  <div
+                    class="info-item d-flex flex-column justify-content-center align-items-center"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Adresse</h3>
+                    <p>Rond point CNPS, Cocody, Abidjan</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div
+                    class="info-item d-flex flex-column justify-content-center align-items-center"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <i class="bi bi-telephone"></i>
+                    <h3>Appelez-nous</h3>
+                    <p>(+225) 27 22 39 14 40</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="col-md-6">
+                  <div
+                    class="info-item d-flex flex-column justify-content-center align-items-center"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <i class="bi bi-envelope"></i>
+                    <h3>Envoyez-nous un e-mail</h3>
+                    <p>Groupe@yadi.ci</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="php-email-form"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Votre Nom complet"
+                      autocomplete="off"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Votre Email"
+                      autocomplete="off"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      placeholder="Sujet"
+                      autocomplete="off"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="4"
+                      placeholder="Message"
+                      autocomplete="off"
+                      required=""
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Chergement</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Votre message a été envoyé. Merci !
+                    </div>
+
+                    <button type="submit">Envoyer un message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+      <div class="container footer-top">
         <div class="row gy-4">
-          <div class="col-lg-6">
-            <div class="row gy-4">
-              <div class="col-lg-12">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-                  data-aos-delay="200">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Adresse</h3>
-                  <p>Rond point CNPS, Cocody, Abidjan</p>
-                </div>
-              </div>
-              <!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-                  data-aos-delay="300">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Appelez-nous</h3>
-                  <p>(+225) 27 22 39 14 40</p>
-                </div>
-              </div>
-              <!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
-                  data-aos-delay="400">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Envoyez-nous un e-mail</h3>
-                  <p>Groupe@yadi.ci</p>
-                </div>
-              </div>
-              <!-- End Info Item -->
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Yadi-Group</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Rond point CNPS</p>
+              <p>Cocody, Abidjan</p>
+              <p class="mt-3">
+                <strong>Téléphone:</strong> <span>(+225) 27 22 39 14 40</span>
+              </p>
+              <p><strong>Email:</strong> <span>Groupe@yadi.ci</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="500">
-              <div class="row gy-4">
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Votre Nom complet" autocomplete="off" required="" />
-                </div>
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Liens rapides</h4>
+            <ul>
+              <li>
+                <i class="bi bi-chevron-right"></i> <a href="#">À propos</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Nos filliales</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i> <a href="#">Engagements</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Actualités</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
 
-                <div class="col-md-6">
-                  <input type="email" class="form-control" name="email" placeholder="Votre Email" autocomplete="off" required="" />
-                </div>
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Nos filliales</h4>
+            <ul>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Yadi-Car-Center</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">DDCS</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Ydia-Construction</a>
+              </li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Vroom</a></li>
+            </ul>
+          </div>
 
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Sujet" autocomplete="off" required="" />
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="4" placeholder="Message" autocomplete="off" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Chergement</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Votre message a été envoyé. Merci !
-                  </div>
-
-                  <button type="submit">Envoyer un message</button>
-                </div>
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Notre newsletter</h4>
+            <p>
+              Abonnez-vous à notre newsletter et recevez les dernières
+              nouveautés sur nos produits et services !
+            </p>
+            <form
+              action="forms/newsletter.php"
+              method="post"
+              class="php-email-form"
+            >
+              <div class="newsletter-form">
+                <input type="email" name="email" autocomplete="off" /><input
+                  type="submit"
+                  value="S'abonner"
+                />
+              </div>
+              <div class="loading">Chargement</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Votre demande d'abonnement a bien été envoyée. Merci !
               </div>
             </form>
           </div>
-          <!-- End Contact Form -->
         </div>
       </div>
-    </section>
-    <!-- /Contact Section -->
-  </main>
 
-  <footer id="footer" class="footer dark-background">
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Yadi-Group</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>Rond point CNPS</p>
-            <p>Cocody, Abidjan</p>
-            <p class="mt-3">
-              <strong>Téléphone:</strong> <span>(+225) 27 22 39 14 40</span>
-            </p>
-            <p><strong>Email:</strong> <span>Groupe@yadi.ci</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Liens rapides</h4>
-          <ul>
-            <li>
-              <i class="bi bi-chevron-right"></i> <a href="#">À propos</a>
-            </li>
-            <li>
-              <i class="bi bi-chevron-right"></i>
-              <a href="#">Nos filliales</a>
-            </li>
-            <li>
-              <i class="bi bi-chevron-right"></i> <a href="#">Engagements</a>
-            </li>
-            <li>
-              <i class="bi bi-chevron-right"></i>
-              <a href="#">Actualités</a>
-            </li>
-            <li>
-              <i class="bi bi-chevron-right"></i>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nos filliales</h4>
-          <ul>
-            <li>
-              <i class="bi bi-chevron-right"></i>
-              <a href="#">Yadi-Car-Center</a>
-            </li>
-            <li>
-              <i class="bi bi-chevron-right"></i>
-              <a href="#">DDCS</a>
-            </li>
-            <li>
-              <i class="bi bi-chevron-right"></i>
-              <a href="#">Ydia-Construction</a>
-            </li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Vroom</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Notre newsletter</h4>
-          <p>
-            Abonnez-vous à notre newsletter et recevez les dernières
-            nouveautés sur nos produits et services !
-          </p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form">
-              <input type="email" name="email" autocomplete="off" /><input type="submit" value="S'abonner" />
-            </div>
-            <div class="loading">Chargement</div>
-            <div class="error-message"></div>
-            <div class="sent-message">
-              Votre demande d'abonnement a bien été envoyée. Merci !
-            </div>
-          </form>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Yadi-Group</strong>
+          <span>Tous droits réservés</span>
+        </p>
+        <div class="credits">
+          Conçu par
+          <a href="https://github.com/kouassikonan57/">KFernand</a> Distribué
+          par
+          <a href="mailto:Groupe@yadi.ci">Yadi-Group</a>
         </div>
       </div>
-    </div>
+    </footer>
 
-    <div class="container copyright text-center mt-4">
-      <p>
-        © <span>Copyright</span>
-        <strong class="px-1 sitename">Yadi-Group</strong>
-        <span>Tous droits réservés</span>
-      </p>
-      <div class="credits">
-        Conçu par
-        <a href="https://github.com/kouassikonan57/">KFernand</a> Distribué
-        par
-        <a href="mailto:Groupe@yadi.ci">Yadi-Group</a>
-      </div>
-    </div>
-  </footer>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
-  
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-      <!-- jquery js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <!-- jquery js -->
     <script src="assets/js/jquery.min.js"></script>
     <!-- jquery ui -->
     <script src="assets/js/jqueryui.js"></script>
-         <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/filiales.js"></script>
-     <script src="assets/js/swip-img.js"></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/filiales.js"></script>
+    <script src="assets/js/swip-img.js"></script>
 
-
-  <!-- <script>
+    <!-- <script>
       document.addEventListener("DOMContentLoaded", function() {
         // Délai en ms (ajustez-le si l'animation est plus lente)
         const animationDuration = 1500; 
@@ -1828,48 +2307,46 @@
       });
     </script> -->
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const slides = document.querySelectorAll(".slide");
-      const dots = document.querySelectorAll(".nav-dot");
-      let currentIndex = 0;
-      const slideDuration = 6000; // 6 seconds per slide
-      let slideInterval;
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const slides = document.querySelectorAll(".slide");
+        const dots = document.querySelectorAll(".nav-dot");
+        let currentIndex = 0;
+        const slideDuration = 6000; // 6 seconds per slide
+        let slideInterval;
 
-      function showSlide(index) {
-        slides.forEach((slide) => slide.classList.remove("active"));
-        dots.forEach((dot) => dot.classList.remove("active"));
+        function showSlide(index) {
+          slides.forEach((slide) => slide.classList.remove("active"));
+          dots.forEach((dot) => dot.classList.remove("active"));
 
-        slides[index].classList.add("active");
-        dots[index].classList.add("active");
-        currentIndex = index;
-      }
+          slides[index].classList.add("active");
+          dots[index].classList.add("active");
+          currentIndex = index;
+        }
 
-      function nextSlide() {
-        const newIndex = (currentIndex + 1) % slides.length;
-        showSlide(newIndex);
-      }
+        function nextSlide() {
+          const newIndex = (currentIndex + 1) % slides.length;
+          showSlide(newIndex);
+        }
 
-      function startSlideshow() {
-        slideInterval = setInterval(nextSlide, slideDuration);
-      }
+        function startSlideshow() {
+          slideInterval = setInterval(nextSlide, slideDuration);
+        }
 
-      // Initialize
-      showSlide(0);
-      startSlideshow();
+        // Initialize
+        showSlide(0);
+        startSlideshow();
 
-      // Dot navigation
-      dots.forEach((dot) => {
-        dot.addEventListener("click", function () {
-          const slideIndex = parseInt(this.getAttribute("data-slide"));
-          showSlide(slideIndex);
-          clearInterval(slideInterval);
-          startSlideshow();
+        // Dot navigation
+        dots.forEach((dot) => {
+          dot.addEventListener("click", function () {
+            const slideIndex = parseInt(this.getAttribute("data-slide"));
+            showSlide(slideIndex);
+            clearInterval(slideInterval);
+            startSlideshow();
+          });
         });
       });
-    });
-  </script>
-  
-</body>
-
+    </script>
+  </body>
 </html>

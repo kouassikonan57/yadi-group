@@ -14,13 +14,12 @@
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
 }
 .rts-company-storyhear h1 {
   font-size: 3.5rem;
 }
 .rts-company-storyhear .timeline ul {
-  background: #fff;
+  background-color: #f9f9f9;
   padding: 0 0;
   margin: 0;
 }
@@ -37,8 +36,12 @@
   position: relative;
   width: 1px;
   margin: 0 auto;
-  padding-top: 137px;
-  background: #E4E4E4;
+  padding-top: 13px;
+  background: #ff4a17;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  color: inherit;
+  text-decoration: none;
 }
 @media only screen and (max-width: 767px) {
   .rts-company-storyhear .timeline ul li.first {
@@ -130,7 +133,7 @@
 .rts-company-storyhear .timeline ul li:nth-child(even) div::before {
   left: -163px;
   border-width: 1px 75px 1px 0;
-  border-color: #E4E4E4;
+  border-color: #ff4a17;
 }
 .rts-company-storyhear .timeline ul li:nth-child(odd) div {
   left: -560px;
@@ -167,7 +170,7 @@
 .rts-company-storyhear .timeline ul li:nth-child(odd) div::before {
   right: -161px;
   border-width: 1px 73px 1px 0;
-  border-color: #E4E4E4;
+  border-color: #ff4a17;
 }
 .rts-company-storyhear .timeline ul li .time {
   display: block;
@@ -304,7 +307,7 @@
   width: 80px;
   padding: 17px;
   background: transparent;
-  border: 1px solid #E4E4E4;
+  border: 1px solid #ff4a17;
   box-shadow: 0px 5px 37px rgba(84, 84, 84, 0.18);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
