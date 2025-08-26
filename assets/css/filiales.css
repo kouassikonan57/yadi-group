@@ -1,11 +1,3 @@
-.rts-company-storyhear {
-  /* TIMELINE
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  /* EFFECTS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  /* GENERAL MEDIA QUERIES
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-}
 .rts-company-storyhear .intro {
   background: #FFE4C4;
   padding: 100px 0;
@@ -19,7 +11,6 @@
   font-size: 3.5rem;
 }
 .rts-company-storyhear .timeline ul {
-  background-color: #f9f9f9;
   padding: 0 0;
   margin: 0;
 }
